@@ -14,7 +14,7 @@
 
 <p align="center">
 <a href="https://www.dessort.com"> 
-<img alt="logo Ben" width="60px" src="/img/logo_bd.png"/>
+<img alt="logo Ben" width="100px" src="/img/logo_bd.png"/>
 </a>
 </p>
 
