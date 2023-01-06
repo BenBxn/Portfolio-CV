@@ -16,8 +16,15 @@
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/3685d94427.js" crossorigin="anonymous"></script>
 
-
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&family=Ubuntu+Mono&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Norican&display=swap" rel="stylesheet">
+    
+    
     <script src="./js/global.js" defer></script>
 </head>
 
@@ -34,8 +41,8 @@
                     <li><a href="index.html">Accueil</a></li>
                 <!--    <li><a href="#about">À propos</a></li>-->
                     <li><a href="#CV">CV</a></li>
-                    <li><a href="#skills">Compétence</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#skills">Compétences</a></li>
+                    <li><a href="#portfolio">Projets</a></li>
                 <!--    <li><a href="#services">Services</a></li>-->
                     <li><a href="#contact">Me contacter</a></li>
                 </ul>
@@ -58,8 +65,32 @@
     <section id="hero" class="hero">
 
             <div class="grid">
+                <div class="hero__item left">
+                    <div class="hero__avatar"> 
+                        <img src="./img/logobd.png" loading="lazy" alt="logo_bd benoitdessort">
+                    </div>
+                </div>
+
                 <div class="hero__item right">
                     <div class="clavier">
+                        <span><i>G</i></span>
+                        <span><i>r</i></span>
+                        <span><i>a</i></span>
+                        <span><i>p</i></span>
+                        <span><i>h</i></span>
+                        <span><i>i</i></span>
+                        <span><i>s</i></span>
+                        <span><i>t</i></span>
+                        <span><i>e</i></span><br>
+                        <span><i>D</i></span>
+                        <span><i>e</i></span>
+                        <span><i>s</i></span>
+                        <span><i>i</i></span>
+                        <span><i>g</i></span>
+                        <span><i>n</i></span>
+                        <span><i>e</i></span>
+                        <span><i>r</i></span>
+                        <span><i> /> </i></span><br>
                         <span><i>D</i></span>
                         <span><i>e</i></span>
                         <span><i>v</i></span>
@@ -71,39 +102,33 @@
                         <span><i>e</i></span>
                         <span><i>u</i></span>
                         <span><i>r</i></span><br>
-                        <span><i>D</i></span>
-                        <span><i>e</i></span>
-                        <span><i>s</i></span>
-                        <span><i>i</i></span>
-                        <span><i>g</i></span>
-                        <span><i>n</i></span>
-                        <span><i>e</i></span>
-                        <span><i>r</i></span>
-                        <span><i> /> </i></span><br>
                         <span><i>Web</i></span>
                     </div>
-                    <h1 class="title"> Bienvenue !</h1>
-                    <p>Cette page me permet de vous informer de mes activités.<br>
-                    Vous y trouverez mon cv, mes projets et mes motivations.</p>
+                    <h1 class="title"> Bienvenue sur mon Portfolio ! <br>
+                        Cette page me permet de vous informer de mes activités en developpement et design graphique.<br>
+                        Vous y trouverez mon cv, mes compétences et mes projets.
+                    </h1>
                 </div>
 
-                <div class="hero__item left">
-                    <div class="hero__avatar"> 
-                        <img src="./img/logobd.png" loading="lazy" alt="logo_bd benoitdessort">
-                    </div>
-                </div>
+
             </div>
 
     </section>
-
+<!-- ****************************************** CV-->
+<section id="CV" class="CV">
+    <div class="section-cv">
+        <h2 class="section-title">Télécharger Mon C.V.</h2>
+            <p><a class="bouton_lien_cv" href="./img/doc/CV_Dessort_Benoit.pdf" target="_blank" title="Mon CV en Pdf"> Téléchargez mon CV en pdf </a></p>
+    </div>
+</section>
 <!-- ****************************************** A PROPOS-->
     <section id="about" class="about">
         <div class="container">
                 <h2 class="section-title">À propos</h2>
                 <div class="grid"> 
 
-                    <h3>Qui suis-je ?</h3>
-                        <p>Hier, Animateur, référent jeunesse, directeur d'un espace jeunesse et de séjours en Europe. 
+                    <h4 class="heading" data-target-resolver></h4>
+                        <!--<p>Hier, Animateur, référent jeunesse, directeur d'un espace jeunesse et de séjours en Europe. 
                             Aujourd'hui, j'ai décidé de donner un nouveau sens à ma carrière.
                         </p>
                         <p>Dans un monde en perpétuelle évolution, <strong>ma curiosité</strong> est insatiable.
@@ -116,7 +141,7 @@
                             dans ce nouveau domaine. Je peux ainsi continuer d’aider les personnes à 
                             avoir accès aux informations facilement et contribuer à la sécurité et à 
                             l’entraide, avec un sens du collectif et une éthique professionnelle modèles 
-                            pour une entreprise. </p>
+                            pour une entreprise. </p>-->
                     <!--<ul>
                         <li>liste</li>
                         <li>liste</li>
@@ -127,14 +152,7 @@
                 </div>
         </div>
     </section>
-<!-- ****************************************** CV-->
-    <section id="CV" class="CV">
-        <div class="section-cv">
-            <h2 class="section-title">Télécharger Mon C.V.</h2>
-                <p><a class="bouton_lien_cv" href="./img/doc/CV_Dessort_Benoit.pdf" target="_blank" title="Mon CV en Pdf"> Téléchargez mon CV en pdf </a></p>
 
-        </div>
-    </section>
 <!-- ****************************************** COMPETENCES-->
     <section id="skills" class="skills">
         <div class="container">
@@ -144,9 +162,9 @@
                     je suis déterminé à me former efficacement. Je suis prêt à m'investir en y consacrant toute mon énergie et ma soif d'apprendre,
                     ainsi mes compétences évolueront dans votre entreprise pour mener à bien les tâches qui me seront confiées.
                     Je vous apporterai mes savoirs et mon goût du travail en équipe.
-                </p> <br>
+                </p>
                 <ul class="list-unstyled block-skills">
-                    <li class="liste-skills">
+                    <li class="liste-skills liste-compétences1">
                     <p>Curiosté, Adaptabilté, Resolution de Problèmes, Développement personnel, Sens du collectif, Éthique professionnelle.</p>
                     <p>Maitrise des outils informatiques et de communication, des logiciels et des technologies numériques.</p>
                     <p>Autonomie, rigueur, polyvalence et capacité d'organisation et d'évaluation.</p>
@@ -154,6 +172,7 @@
                     </li>
                 </ul>
             </div>
+
             <div class="grid-skills">
                 <div class="grid__item">
                     <!--<h3>Compétences</h3>-->
@@ -164,7 +183,7 @@
                         </li>-->
 
                         <li class="liste-skills intro-skill">
-                            <h4>Développement Web</h4>
+                            <h4 class="titre-dev">Développement Web</h4>
                                 <ul>
                                     <li><i class="fa-solid fa-square-check"></i> Découper, assembler et intégrer tous les éléments d’une maquette graphique en HTML5 et CSS<br> </li>
                                     <li><i class="fa-solid fa-square-check"></i> Appliquer les standards du web et les normes en vigueur<br> </li>
@@ -176,8 +195,9 @@
                                     <li> <i class="fa-solid fa-square-check"></i> Créer, gérer et afficher le contenu d’une base de données<br> </li>
                                 </ul>
                         </li>
+
                         <li class="liste-skills logo-skill logo-skill-dev">
-                            <h4>Outils - Langages - Frameworks</h4>
+                            <h4 class="titre-dev">Outils - Langages - Frameworks</h4>
                             <div class="block-logo-skill">
                                 <div><img src="./img/icons/vscode_icon.png" loading="lazy" alt="VSCODE"><p> VisualStudio Code</p> </div>
                                 <div><img src="./img/icons/HTML5_logo.png" loading="lazy" alt="HTML5"> <p> HTML</p></div>
@@ -199,7 +219,7 @@
                 <div class="grid__item">
                     <ul class="list-unstyled">
                         <li class="liste-skills intro-skill">
-                            <h4>Conception graphique & webdesign</h4>
+                            <h4 class="titre-des">Conception Graphique & Design</h4>
                             <ul>
                                 <li><i class="fa-solid fa-square-check"></i> Techniques de dessin<br> </li>
                                 <li><i class="fa-solid fa-square-check"></i> Réalisation de logos et de contenu (bannières, affiches, illustrations)<br> </li>
@@ -210,7 +230,7 @@
                             </ul>
                         </li>
                         <li class="liste-skills logo-skill">
-                            <h4>Logiciels - Outils</h4>
+                            <h4 class="titre-des">Logiciels - Outils</h4>
                             <div class="block-logo-skill">
                                 <div><img src="./img/icons/Creative-cloud.png" loading="lazy" alt="Creative-cloud"> <p> Creative-cloud</p></div>
                                 <div><img src="./img/icons/photoshop-icon.png" loading="lazy" alt="photoshop"><p> Photoshop</p> </div>
@@ -238,7 +258,7 @@
     <section id="portfolio" class="portfolio">
         <div class="container">
             <div class="section-portfolio">
-                <h2 class="section-title">Portfolio</h2>
+                <h2 class="portfolio-title">Portfolio</h2>
                 <p> Chaque projet est pour moi une façon de refléter ma créativité et ma technicité. 
                     J'espère agrandir mon portfolio avec de futurs projets en commun.<br>
                 </p>
@@ -286,13 +306,20 @@
                                     <div class="grid__item image-modal-logo">
                                         <img src="./img/Portfolio/Booki-logo.png" loading="lazy" class="card__image" alt="Booki logo" >
                                     </div>
-<!--Voir pour carrousselle-->
-                                    <div class="grid__item image-modal-carroussel">
-                                        <img src="./img/Portfolio/Booki-mockup.png" loading="lazy" class="card__image" alt="Booki mockup" >
-                                        <img src="./img/Portfolio/Booki1.png" loading="lazy" class="card__image" alt="Booki mockup" >
-                                        <img src="./img/Portfolio/Booki2.png" loading="lazy" class="card__image" alt="Booki mockup" >
-                                        <img src="./img/Portfolio/Booki3.png" loading="lazy" class="card__image" alt="Booki mockup">
-                                    </div>
+
+<!--Voir pour carrousselle-->  
+                                    <section class="carousel-slider">
+                                        <div class="slider">
+                                            <figure>
+                                                <div class="slider-img"><img src="./img/Portfolio/Booki-mockup.png" loading="lazy" class="card__image" alt="Booki mockup" ></div>
+                                                <div class="slider-img"><img src="./img/Portfolio/Booki1.png" loading="lazy" class="card__image" alt="Booki mockup" ></div>
+                                                <div class="slider-img"><img src="./img/Portfolio/Booki2.png" loading="lazy" class="card__image" alt="Booki mockup" ></div>
+                                                <div class="slider-img"><img src="./img/Portfolio/Booki3.png" loading="lazy" class="card__image" alt="Booki mockup"></div>
+                                                <div class="slider-img"><img src="./img/Portfolio/Booki1.png" loading="lazy" class="card__image" alt="Booki mockup" ></div>
+                                            </figure>
+                                        </div>
+                                    </section>
+
 <!--informations modal-->
                                     <div class="grid__item information-modal">
                                         <h4 class="modal__title h2">Booki</h4>
@@ -401,18 +428,24 @@
                                     class="card__image" alt="ohmyfood logo" >
                                 </div>
 <!--Voir pour carrousselle-->
-                                <div class="grid__item image-modal-carroussel">
-                                    <img src="./img/Portfolio/ohmyfood-mockup.png" loading="lazy"
-                                    class="card__image" alt="ohmyfood mockup" >
-                                    <img src="./img/Portfolio/ohmyfood1.png" loading="lazy"
-                                    class="card__image" alt="ohmyfood mockup" >
-                                    <img src="./img/Portfolio/ohmyfood2.png" loading="lazy"
-                                    class="card__image" alt="ohmyfood mockup" >
-                                    <img src="./img/Portfolio/ohmyfood3.png" loading="lazy"
-                                    class="card__image" alt="ohmyfood mockup" >
-                                    <img src="./img/Portfolio/ohmyfood4.png" loading="lazy"
-                                    class="card__image" alt="ohmyfood mockup" >
-                                </div>
+
+                                <section class="carousel-slider">
+                                    <div class="slider">
+                                        <figure>
+                                            <div class="slider-img"><img src="./img/Portfolio/ohmyfood-mockup.png" loading="lazy"
+                                                class="card__image" alt="ohmyfood mockup" ></div>
+                                            <div class="slider-img"><img src="./img/Portfolio/ohmyfood1.png" loading="lazy"
+                                                class="card__image" alt="ohmyfood mockup" ></div>
+                                            <div class="slider-img"><img src="./img/Portfolio/ohmyfood2.png" loading="lazy"
+                                                class="card__image" alt="ohmyfood mockup" ></div>
+                                            <div class="slider-img"><img src="./img/Portfolio/ohmyfood3.png" loading="lazy"
+                                                class="card__image" alt="ohmyfood mockup" ></div>
+                                            <div class="slider-img"><img src="./img/Portfolio/ohmyfood4.png" loading="lazy"
+                                                class="card__image" alt="ohmyfood mockup" ></div>
+                                        </figure>
+                                    </div>
+                                </section>
+
 <!--informations modal-->
                                     <div class="grid__item information-modal">
                                         <h4 class="modal__title h2">OhMyFood!</h4>
@@ -520,18 +553,24 @@
                                     class="card__image" alt="panthere logo">
                                 </div>
 <!--Voir pour carrousselle-->
-                                <div class="grid__item image-modal-carroussel">
-                                    <img src="./img/Portfolio/panthere-mockup.png" loading="lazy"
-                                    class="card__image" alt="panthere mockup" >
-                                    <img src="./img/Portfolio/Panthere_Validation_W3C.png" loading="lazy"
-                                    class="card__image" alt="panthere mockup">
-                                    <img src="./img/Portfolio/Panthere_lighthouse.png" loading="lazy"
-                                    class="card__image" alt="panthere mockup" >
-                                    <img src="./img/Portfolio/Panthere_PageSpeedInsights.png" loading="lazy"
-                                    class="card__image" alt="panthere mockup" >
-                                    <img src="./img/Portfolio/Panthere_Wave.png" loading="lazy"
-                                    class="card__image" alt="panthere mockup" >
-                                </div>
+                                <section class="carousel-slider">
+                                    <div class="slider">
+                                        <figure>
+                                            <div class="slider-img"><img src="./img/Portfolio/panthere-mockup.png" loading="lazy"
+                                                class="card__image" alt="panthere mockup" ></div>
+                                            <div class="slider-img"><img src="./img/Portfolio/Panthere_lighthouse.png" loading="lazy"
+                                                class="card__image" alt="panthere mockup" ></div>
+                                            <div class="slider-img"><img src="./img/Portfolio/Panthere_PageSpeedInsights.png" loading="lazy"
+                                                class="card__image" alt="panthere mockup" ></div>
+                                            <div class="slider-img"><img src="./img/Portfolio/Panthere_Wave.png" loading="lazy"
+                                                class="card__image" alt="panthere mockup" ></div>
+                                            <div class="slider-img"><img src="./img/Portfolio/Panthere_Validation_W3C.png" loading="lazy"
+                                                class="card__image" alt="panthere mockup" ></div>
+                                        </figure>
+                                    </div>
+                                </section>
+                                <!-- <div class="grid__item image-modal-carroussel">
+                                </div> -->
 <!--informations modal-->
                                     <div class="grid__item information-modal">
                                         <h4 class="modal__title h2">Agence La Panthere</h4>
@@ -640,16 +679,25 @@
                                     class="card__image" alt="Kanap logo" >
                                 </div>
 <!--Voir pour carrousselle-->
-                                <div class="grid__item image-modal-carroussel">
-                                    <img src="./img/Portfolio/kanap-mockup.png" loading="lazy"
-                                    class="card__image" alt="Kanap mockup" >
-                                    <img src="./img/Portfolio/kanap1.png" loading="lazy"
-                                    class="card__image" alt="Kanap mockup" >
-                                    <img src="./img/Portfolio/kanap2.png" loading="lazy"
-                                    class="card__image" alt="Kanap mockup" >
-                                    <img src="./img/Portfolio/kanap3.png" loading="lazy"
-                                    class="card__image" alt="Kanap mockup" >
-                                </div>
+                                <section class="carousel-slider">
+                                    <div class="slider">
+                                        <figure>
+                                            <div class="slider-img"><img src="./img/Portfolio/kanap-mockup.png" loading="lazy"
+                                                class="card__image" alt="Kanap mockup" ></div>
+                                            <div class="slider-img"><img src="./img/Portfolio/kanap1.png" loading="lazy"
+                                                class="card__image" alt="Kanap mockup" ></div>
+                                            <div class="slider-img"><img src="./img/Portfolio/kanap2.png" loading="lazy"
+                                                class="card__image" alt="Kanap mockup" ></div>
+                                            <div class="slider-img"><img src="./img/Portfolio/kanap3.png" loading="lazy"
+                                                class="card__image" alt="Kanap mockup" ></div>
+                                            <div class="slider-img"><img src="./img/Portfolio/kanap1.png" loading="lazy"
+                                                class="card__image" alt="Kanap mockup" ></div>
+                                        </figure>
+                                    </div>
+                                </section>
+
+                                <!-- <div class="grid__item image-modal-carroussel">
+                                </div> -->
 <!--informations modal-->
                                     <div class="grid__item information-modal">
                                         <h4 class="modal__title h2">Kanap</h4>
@@ -757,19 +805,25 @@
                                         <img src="./img/Portfolio/piiquante-logo.png" loading="lazy"
                                         class="card__image" alt="PIIQUANTE logo" >
                                     </div>
-                                    <!--Voir pour carrousselle-->
-                                    <div class="grid__item image-modal-carroussel">
-                                        <img src="./img/Portfolio/piiquante-mockup.png" loading="lazy"
-                                        class="card__image" alt="PIIQUANTE mockup" >
-                                        <img src="./img/Portfolio/Piiquante1.png" loading="lazy"
-                                        class="card__image" alt="PIIQUANTE mockup" >
-                                        <img src="./img/Portfolio/Piiquante2.png" loading="lazy"
-                                        class="card__image" alt="PIIQUANTE mockup" >
-                                        <img src="./img/Portfolio/Piiquante3.png" loading="lazy"
-                                        class="card__image" alt="PIIQUANTE mockup" >
-                                        <img src="./img/Portfolio/Piiquante4.png" loading="lazy"
-                                        class="card__image" alt="PIIQUANTE mockup" >
-                                    </div>
+
+<!-- carrousselle-->
+                                    <section class="carousel-slider">
+                                        <div class="slider">
+                                            <figure>
+                                                <div class="slider-img"><img src="./img/Portfolio/piiquante-mockup.png" loading="lazy"
+                                                    class="card__image" alt="PIIQUANTE mockup" ></div>
+                                                <div class="slider-img"><img src="./img/Portfolio/Piiquante1.png" loading="lazy"
+                                                    class="card__image" alt="PIIQUANTE mockup" ></div>
+                                                <div class="slider-img"><img src="./img/Portfolio/Piiquante2.png" loading="lazy"
+                                                    class="card__image" alt="PIIQUANTE mockup" ></div>
+                                                <div class="slider-img"><img src="./img/Portfolio/Piiquante3.png" loading="lazy"
+                                                    class="card__image" alt="PIIQUANTE mockup" ></div>
+                                                <div class="slider-img"><img src="./img/Portfolio/Piiquante4.png" loading="lazy"
+                                                    class="card__image" alt="PIIQUANTE mockup" ></div>
+                                            </figure>
+                                        </div>
+                                    </section>
+
 <!--informations modal-->
                                     <div class="grid__item information-modal">
                                         <h4 class="modal__title h2">PIIQUANTE</h4>
@@ -880,20 +934,25 @@
                                         class="card__image" alt="Kasa logo" >
                                     </div>
 <!--Voir pour carrousselle-->
-                                    <div class="grid__item image-modal-carroussel">
-                                        <img src="./img/Portfolio/kasa-mockup.png" loading="lazy"
-                                        class="card__image" alt="Kasa mockup" >
-                                        <img src="./img/Portfolio/kasa1.png" loading="lazy"
-                                        class="card__image" alt="Kasa mockup" >
-                                        <img src="./img/Portfolio/kasa2.png" loading="lazy"
-                                        class="card__image" alt="Kasa mockup" >
-                                        <img src="./img/Portfolio/kasa3.png" loading="lazy"
-                                        class="card__image" alt="Kasa mockup" >
-                                        <img src="./img/Portfolio/kasa4.png" loading="lazy"
-                                        class="card__image" alt="Kasa mockup" >
-                                        <img src="./img/Portfolio/kasa5.png" loading="lazy"
-                                        class="card__image" alt="Kasa mockup" >
-                                    </div>
+                                    <section class="carousel-slider">
+                                        <div class="slider">
+                                            <figure>
+                                                <div class="slider-img"><img src="./img/Portfolio/kasa-mockup.png" loading="lazy"
+                                                    class="card__image" alt="Kasa mockup" ></div>
+                                                <div class="slider-img"><img src="./img/Portfolio/kasa1.png" loading="lazy"
+                                                    class="card__image" alt="Kasa mockup" ></div>
+                                                <div class="slider-img"><img src="./img/Portfolio/kasa2.png" loading="lazy"
+                                                    class="card__image" alt="Kasa mockup" ></div>
+                                                <div class="slider-img"><img src="./img/Portfolio/kasa3.png" loading="lazy"
+                                                    class="card__image" alt="Kasa mockup" ></div>
+                                                <div class="slider-img"><img src="./img/Portfolio/kasa4.png" loading="lazy"
+                                                    class="card__image" alt="Kasa mockup" ></div>
+                                                <!--<div class="slider-img"><img src="./img/Portfolio/kasa5.png" loading="lazy"
+                                                    class="card__image" alt="Kasa mockup" ></div>-->
+                                            </figure>
+                                        </div>
+                                    </section>
+
 <!--informations modal-->
                                     <div class="grid__item information-modal">
                                         <h4 class="modal__title h2">Kasa</h4>
