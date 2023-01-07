@@ -166,10 +166,10 @@ header .container{
     nav {
         display: flex;
         justify-content: flex-start;
-        align-items: center;
+        align-items:center ;
         flex-direction: column;
         position: fixed;
-        top: 20px;
+        top: 5px;
         left: 110%;
         margin-top: 65px;
         bottom: 50px;
@@ -178,11 +178,14 @@ header .container{
         height: calc(100vh - 55px);
         background: #F5F5F5;
         transition: all .4s ease-out;
-        line-height: 1;
+        line-height: 0.5;
         height: 100%;
     }
     nav .menu ul{
         top: 100px;
+    }
+    nav .menu {
+        padding: 0;
     }
 
     nav .menu li {
@@ -233,6 +236,25 @@ header .container{
     display: none;
     }
 }
+
+@media screen and (max-width:540px) {
+    .header .logo{    
+        font-size: 120%;
+    }
+    .socials img {
+        height: 30px;
+            border-radius: 5px;
+
+    }
+    .socials a{
+        border-radius: 5px;
+        height: 30px;
+    }
+    .header{
+        height: 70px;
+    }
+}
+
 /**---------------bienvenu sur mon site----AVATAR-LOGO-----------*/
 
 .hero {
@@ -252,7 +274,7 @@ header .container{
 
 .hero .title {
     color: whitesmoke;
-    max-width: 85%;
+    width: 90%;
 }
 
 .hero__item {
@@ -349,7 +371,8 @@ header .container{
         width: 60%;
     }
     .hero__avatar img{
-        width: 90%;
+        width: 100%;
+        height: 100%;
     }
     
 }
@@ -368,7 +391,8 @@ header .container{
     }
     .hero__item.left{
         margin-top: 25px;
-        width: 250px;
+        width: 240px;
+        height: 240px;
     }
     .hero{
         height: auto;
@@ -387,6 +411,10 @@ header .container{
     .hero__item span i{
         font-size: 10px;
     }
+    .hero .title {
+        width: 90%;
+        font-size: 120%;
+    }
 }
 /**-----------------------------------A Propos------*/
 .about .container{
@@ -398,11 +426,16 @@ header .container{
 .about .grid{
     margin:0 auto 0 auto ;
     width: 60%;
-    max-width: 1000px;
+    max-width: 510px;
     font-size: 120%;
     height: 100px;
 }
-
+@media screen and (max-width:910px) {
+    .about .grid{
+        width: 80%;
+        height: 120px;
+    }
+}
 /**-----------------------------------CV------*/
 .CV {
     background: rgb(46,46,46);
@@ -541,6 +574,8 @@ header .container{
     justify-content: space-around;
     align-content: space-around;
     height: 90%;
+    width: 90%;
+    margin: auto;
 }
 .block-logo-skill div{
     display: flex;
@@ -588,13 +623,12 @@ header .container{
     .block-logo-skill div{
         width: 70px;
         height: 70px;
-        margin: 10px;
+        margin: 8px auto 8px auto;
     }
     .block-logo-skill div img{
         width: 45px;
         height: 45px;;
     }
-
 }
 @media screen and (max-width:500px) {
     .block-logo-skill p{
@@ -1133,6 +1167,7 @@ footer {
     display: flex;
     align-items: center;
     font-size: 1.4rem;
+    min-height: 150px;
 }
 .grid_footer{
     display: flex;
@@ -1155,9 +1190,12 @@ footer {
     font-size: small;
 }
 
-.social-liens-footer {
-padding-left: 95px;
+footer .socials {
+    margin: auto;
+    padding-right: 25px;
+    padding-left: 0;
 }
+
 footer .socials a {
     color: #FFF;
     border: 1px solid #FFF;
@@ -1193,5 +1231,9 @@ footer .socials a img{
     }
     .footer-logo{
         margin-top: 20px;
+    }
+    .footer-logo a{
+        font-size: 100%;
+        letter-spacing: 2px;
     }
 }
