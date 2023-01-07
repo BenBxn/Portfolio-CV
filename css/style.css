@@ -105,13 +105,13 @@ header .container{
     height: 45px;
 }
 .header a:hover {
-    color: rgb(105, 50, 107);
+    color: rgba(68,182,248,1)
 }
 .menu a:hover{
     text-decoration: underline;
 }
 .header .socials a:hover {
-    box-shadow: 4px 5px 4px #5f1a7a;
+    box-shadow: 4px 5px 4px  rgba(68,182,248,1)
 }
 .header .right { /*pour burger*/
     display: flex;
@@ -269,7 +269,6 @@ header .container{
     overflow: hidden;
     background: linear-gradient(180deg, #282828, #202020) ;
     padding: 4px 16px 9px 16px;
-    min-width: 35px;
 }
 
 .hero__item span::before{
@@ -287,7 +286,7 @@ header .container{
     border-bottom: 1px solid rgba(195, 85, 238, 0.705);
     border-top: 1px solid rgba(181, 182, 182, 0.795);
 }
-.hero__item span:last-child{
+.hero__item span:nth-last-child(2){
     width: 100px;
 }
 .hero__item span i{
@@ -365,10 +364,10 @@ header .container{
     .hero__item.right{
         width: 95%;
         align-items: center;
-        margin-top: 20px;
+        margin-top: 25px;
     }
     .hero__item.left{
-        margin-top: 20px;
+        margin-top: 25px;
         width: 250px;
     }
     .hero{
@@ -380,7 +379,15 @@ header .container{
     
     }
 }
+@media screen and (max-width:510px) {
+    .hero__item span{
+        padding: 2px 11px 6px 11px;
 
+    }
+    .hero__item span i{
+        font-size: 10px;
+    }
+}
 /**-----------------------------------A Propos------*/
 .about .container{
     background: #f5f5f5;
@@ -569,6 +576,12 @@ header .container{
     .grid-skills .grid__item{
         width: 90%;
 
+    }
+    .intro-skill{
+        height: auto;
+    }
+    .logo-skill{
+        height: auto;
     }
 }
 @media screen and (max-width:890px) {
@@ -1129,14 +1142,14 @@ footer {
     margin: auto;
 }
 .footer-logo a{
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Nova Slim', cursive;
     font-size: 2rem;
     letter-spacing: 2px;
     color: white;
 }
 
 .footer-logo a:hover {
-    color:#4da6b8;
+    color:rgba(68, 182, 248, 0.76);
 }
 .copyright {
     font-size: small;
@@ -1158,7 +1171,7 @@ footer .socials a {
     margin: 10px;
 }
 footer .socials a:hover {
-    background: #4da6b8;
+    background:rgba(68, 182, 248, 0.76);
     border: 3px solid rgba(195, 85, 238, 0.705);
 
 }
