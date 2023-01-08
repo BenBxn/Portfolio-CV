@@ -11,7 +11,6 @@ body
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #000;
     line-height: 1;
 }
 
@@ -491,7 +490,9 @@ header .container{
     color: rgb(255, 255, 255);
 }
 
-
+.document_lien{
+    padding-top: 10px;
+}
 /*-----------------------------Compétences------*/
 .skills .container{
     display: flex;
@@ -649,14 +650,13 @@ header .container{
 }
 .portfolio .container{
     padding-bottom: 50px;
-    max-width: 1300px;
-    margin: auto;
 }
 .section-portfolio{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 80%;
+    max-width: 1000px;
     margin: auto;
     text-align: center;
         color: #F5F5F5;
@@ -668,7 +668,7 @@ header .container{
     align-items: center;
     justify-content: space-around;
     padding: 0px;
-    width: 100%;
+    width: 95%;
     margin: auto;
 }
 
@@ -756,7 +756,6 @@ header .container{
     transition: all .3s;
 }
 .card__overlay a {
-    font-size: 4.5rem;
     color: #FFF;
     flex: 1;
     display: flex;
@@ -766,6 +765,37 @@ header .container{
 }
 .card:hover .card__overlay {
     top: 0;
+}
+
+.block_overlay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: none;
+}
+
+.tilte_overlay{
+    font-size: 150%;
+    color: white;
+}
+.block_overlay ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.overlay_clic{
+    margin-top: 35px;
+    color: white;
+    text-decoration: underline rgba(222, 154, 249, 0.705);
+}
+.block_overlay:hover{
+    color: rgb(105, 194, 246);
+}
+.block_overlay .overlay_clic:hover{
+    color:rgba(222, 154, 249, 0.705);
+    text-decoration: underline overline rgb(105, 194, 246);
 }
 /*---------------Portfolio--MODAL-à corriger---------*/
 .modal {
@@ -799,20 +829,27 @@ header .container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 40px auto auto auto;
+    margin: auto;
     width: 100%;
 }
+.modal__title{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width:100%;
+    margin: 0;
+    color: white;
+    background: linear-gradient(90deg, rgba(46,46,46,1) 0%, rgba(68,182,248,1) 30%, rgba(245,245,245,1) 100%);
+}
 .image-modal-logo img{
-    max-height: 170px;
-    width: 90%;
+    max-width: 60%;
     margin: auto;
+    max-height: 100px;
 }
 /*carousel style 1*/
 
-.carousel-slider{
-    width: 90%;
-    max-height: 700px;
-}
+
 
 @keyframes slidy {
     0% { left: 0%; }
@@ -829,12 +866,15 @@ header .container{
     }
     
 
-.slider { overflow: hidden;
+.slider { 
+    overflow: hidden;
+    padding: 5px;  
 }
+
 .slider figure .slider-img { 
     width: 20%;
     float: left; 
-    max-height: 700px;
+
     display: flex;
     justify-content: space-around;
 }
@@ -852,9 +892,33 @@ header .container{
 
 .slider-img img{
         max-width: 100%;
-        max-height: 700px;
+        max-height: 550px;
 
     }
+.block-conlones{
+    display: flex;
+    max-height: 850px;
+    max-width: 1000px;
+    padding-top: 20px;
+}
+.colone1-modal, .colone2-modal{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    height: 800px;
+    justify-content:space-between;
+}
+.carousel-slider{
+    background-color: #F5F5F5;
+    border-left: 3px solid #4da6b8;
+    box-shadow: 0 0 7px black;
+    border-radius: 5px;
+    height: 70%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
     
 
 /*
@@ -873,17 +937,40 @@ flex-wrap: wrap;
 } */
 .information-modal{
     width: 90%;
-    padding-bottom: 50px;
+    padding: 5px 10px 5px 5px ;
+    background-color: #F5F5F5;
+    border-left: 3px solid #4da6b8;
+    box-shadow: 0 0 7px black;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+.info-modal1{
+    height: 25%;
+}
+.info-modal2{
+    height: 70%;
+}
+.block-info-modal{
+    display:flex ;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
 }
 .intro-modal{
     display: flex;
     align-items: center;
 }
 .intro-modal img {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     align-self: center;
-    margin-right: 15px;
+    margin: 0px 10px 0px 0px;
+}
+.block-info-modal .h3, .h4{
+    margin: 10px 0 0 0 ;
+}
+.block-info-modal p, .block-info-modal li, .block-info-modal i{
+    font-size: 80%;
 }
 .document_modal{
     display: flex;
@@ -893,36 +980,41 @@ flex-wrap: wrap;
 }
 .document_modal li{
     line-height: 2.5;
+    padding-top: 5px;
 }
 .block-techno-modal{
-    background-color: #5b6c78;
-    width: 100%;
+    width: 90%;
+    padding: 5px;
+    background-color: #F5F5F5;
+    border-left: 3px solid #4da6b8;
+    box-shadow: 0 0 7px black;
+    border-radius: 10px;
+    height: 25%;
 }
 .modal-technologies{
     width: 90%;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
     margin: auto;
 
 }
 
 .modal-technologies h5{
-    padding-right: 100px;
-    color: white;
+margin:10px 0 0 0 ;
 }
 .modal-technologies ul{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
-    padding-right: 100px;
 }
 
 .icon-technologie img{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     margin-right: 10px;
+
 }
 
 .lien-modal-projet a{
@@ -930,13 +1022,12 @@ flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     margin-right: 20px;
-    color: white;
 }
 
 .lien-modal-projet img{
     margin-right: 5px;
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
 }
 
 .lien-modal-projet a:hover{
@@ -980,26 +1071,27 @@ flex-wrap: wrap;
 }
 
 /***************************************//*media Portfolio*/ 
-@media screen and (max-width:1200px) {
-    .lien-modal-projet{
+@media screen and (max-width:1030px) {
+    .block-conlones{
         flex-direction: column;
-        margin: auto auto 20px auto;
+        margin: auto;
         align-items: center;
+        max-height: max-content;
     }
-    .modal-technologies{
-        flex-direction: column;
-
-    }
-    .modal-technologies h5{
-        padding-right: 0;
+    .colone1-modal, .colone2-modal{
+        width: 80%;
+        height: auto;
+        max-height: max-content;
         margin-bottom: 20px;
     }
-    .modal-technologies ul{
-        padding-right: 0;
-        
+    .info-modal2 {
+        max-height: max-content;
+        height: auto;
+        margin-bottom: 20px;
     }
-    .lien-modal-projet a{
-        margin-right: 0;
+    .info-modal1 {
+        max-height: max-content;
+        height: auto;
         margin-top: 20px;
     }
 }
@@ -1012,18 +1104,8 @@ flex-wrap: wrap;
     .card img{
         height: 175px;
     }
-
-
-    .image-modal-carroussel img{
-        max-height: 200px;
-    }
-    .carousel-slider{
-
-        max-height: 550px;
-    }
-    .slider-img img{
-
-        max-height: 550px;
+    .lien-modal-projet{
+        margin: 0 0 0 10px;
     }
 }
 
@@ -1044,24 +1126,26 @@ flex-wrap: wrap;
         width: 40%;
         margin-bottom:10px;
     }
-    .carousel-slider{
-
-        max-height: 450px;
-    }
-    .slider-img img{
-
-        max-height: 450px;
-    }
 }
 
 @media screen and (max-width:450px) {
-    .image-modal-logo img{
-        width: 70%;
-        padding-left: 30px;
-    }
     .modal__close {
         right: 5px;
         font-size: 35px;
+    }
+    .modal-technologies ul{
+
+        font-size: large;
+
+    }
+    .modal-technologies ul li {
+        margin-bottom: 10px;
+    }
+    .icon-technologie{
+        margin-bottom: 0;
+    }
+    .lien-modal-projet a{
+        margin-right: 0;
     }
 }
 

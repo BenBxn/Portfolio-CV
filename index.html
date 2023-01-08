@@ -283,7 +283,7 @@
 <!--Cards Portfolio-->
             <div class="grid-cards-portfolio">
 
-<!--cards1  ****************************************** BOOKI-->
+                <!--cards1  ****************************************** BOOKI-->
                 <div class="grid__item">
                     <div class="card" data-category="web">
                         <img src="./img/Portfolio/Booki-mockup.png" loading="lazy" alt="mockup site web booki sur ordinateur tablette et portable" class="card__image">
@@ -293,10 +293,17 @@
                         </div>
                         <div class="card__overlay">
                             <a href="#" class="card__link" data-id="modal-1">
-                                <div>+</div>
+
+ 
+                                <div class="block_overlay">
+                                    <h4 class="title_overlay">Projet Front-End</h4>
+                                    <p>Transformation d'une maquette en site web</p>
+                                    <ul>
+                                        <li>HTML et CSS</li>
+                                    </ul>
+                                    <p class="overlay_clic">Cliquez pour en savoir plus</p>
+                                </div>
                                 
-
-
 
 
                             </a>
@@ -304,97 +311,122 @@
                     </div>
 <!-- modal_cards1 -->
                     <div class="modal" id="modal-1">
-                        <button class="modal__close">
+                        <div>
+                            <button class="modal__close">
                             <i class="fa-solid fa-xmark"></i>
-                        </button>
+                            </button>
+                        </div>
                         <div class="modal__content">
                             <div class="container">
 <!--logo modal-->
-                                    <div class="grid__item image-modal-logo">
+                                <div class="modal__title">
+
+                                    <h4 class="h2">Booki</h4>
+                                    <div class="image-modal-logo">
                                         <img src="./img/Portfolio/Booki-logo.png" loading="lazy" class="card__image" alt="Booki logo" >
                                     </div>
 
-<!--Voir pour carrousselle-->  
-                                    <section class="carousel-slider">
-                                        <div class="slider">
-                                            <figure>
-                                                <div class="slider-img"><img src="./img/Portfolio/Booki-mockup.png" loading="lazy" class="card__image" alt="Booki mockup" ></div>
-                                                <div class="slider-img"><img src="./img/Portfolio/Booki1.png" loading="lazy" class="card__image" alt="Booki mockup" ></div>
-                                                <div class="slider-img"><img src="./img/Portfolio/Booki2.png" loading="lazy" class="card__image" alt="Booki mockup" ></div>
-                                                <div class="slider-img"><img src="./img/Portfolio/Booki3.png" loading="lazy" class="card__image" alt="Booki mockup"></div>
-                                                <div class="slider-img"><img src="./img/Portfolio/Booki1.png" loading="lazy" class="card__image" alt="Booki mockup" ></div>
-                                            </figure>
-                                        </div>
-                                    </section>
+                                </div>
 
-<!--informations modal-->
-                                    <div class="grid__item information-modal">
-                                        <h4 class="modal__title h2">Booki</h4>
-                                        <p>
-                                            <i class="fa-regular fa-calendar"></i>
-                                            <i>Année : Mai 2022</i>
-                                        </p>
-                                        <p class="category">
-                                            <i class="fa-solid fa-tag"></i>
-                                            Développement Web
-                                        </p>
-                                        <div class="intro-modal">
-                                            <img src="./img/icons/Logo_OpenClassrooms.png" alt="icon openclassrooms">
-                                            <p>
-                                                Ce projet est le n°2 du parcours Développeur Web chez OpenClassRooms, qui consiste à transformer une maquette en site web avec HTML et CSS. 
-                                            </p>
-                                        </div>
-                                        <div class="block-info-modal">
-                                            <h5 class="h3">Informations</h5>
-                                            <div>
-                                                <h6 class="h4"><strong> Contexte :</strong></h6>
+<!--info et carrouselle modal-->
+                                <div class="block-conlones">
+
+                                    <div class="colone1-modal">
+        <!--carrousselle-->             
+
+                                            <section class="carousel-slider">
+                                                <div class="slider">
+                                                    <figure>
+                                                        <div class="slider-img"><img src="./img/Portfolio/Booki-mockup.png" loading="lazy" class="card__image" alt="Booki mockup" ></div>
+                                                        <div class="slider-img"><img src="./img/Portfolio/Booki1.png" loading="lazy" class="card__image" alt="Booki mockup" ></div>
+                                                        <div class="slider-img"><img src="./img/Portfolio/Booki2.png" loading="lazy" class="card__image" alt="Booki mockup" ></div>
+                                                        <div class="slider-img"><img src="./img/Portfolio/Booki3.png" loading="lazy" class="card__image" alt="Booki mockup"></div>
+                                                        <div class="slider-img"><img src="./img/Portfolio/Booki1.png" loading="lazy" class="card__image" alt="Booki mockup" ></div>
+                                                    </figure>
+                                                </div>
+                                            </section>
+
+        <!--informations modal-->
+                                            <div class="information-modal info-modal1">
+
                                                 <p>
-                                                    Stagiaire en tant que développeur web chez Booki, une petite entreprise proposant un outil de planification de vacances ! Son site permettra aux usagers de trouver des hébergements et des activités dans la ville de leur choix.<br>
-                                                    Chargé de créer un prototype en intégrant les maquettes réalisées par le designer UI, qui serviront de base de code pour le reste du développement, il faudra respecter les spécifications de design et les contraintes techniques reçues par mail via la CTO.<br>
+                                                    <i class="fa-regular fa-calendar"></i>
+                                                    <i>Année : Mai 2022</i>
                                                 </p>
+                                                <p class="category">
+                                                    <i class="fa-solid fa-tag"></i>
+                                                    Développement Web
+                                                </p>
+                                                <div class="intro-modal">
+                                                    <img src="./img/icons/Logo_OpenClassrooms.png" alt="icon openclassrooms">
+                                                    <p>
+                                                        Ce projet est le n°2 du parcours Développeur Web chez OpenClassRooms, qui consiste à transformer une maquette en site web avec HTML et CSS. 
+                                                    </p>
+                                                </div>
                                             </div>
-                                            <div>
-                                                <h6 class="h4"><strong>Cahier des charges :</strong></h6>
-                                                
-                                                    <i>Spécifications fonctionnelles & techniques : </i>
-                                                    <ul>
-                                                        <li><i class="fa-regular fa-circle-check"></i> Le texte du champ de recherche doit être éditable.</li>
-                                                        <li><i class="fa-regular fa-circle-check"></i> Les activités et hébergements doivent être cliquables en intégralité (liens vides).</li>
-                                                        <li><i class="fa-regular fa-circle-check"></i> Un effet de survol sur les filtres doit être présent.</li>
-                                                        <li><i class="fa-regular fa-circle-check"></i> Les liens "Hébergements" et "Activités" doivent mener à la section correspondante.</li>
-                                                        <li><i class="fa-regular fa-circle-check"></i> Nous disposons des maquettes Desktop et Mobile. Le site doit être également adapté sur tablette avec les modifications nécessaires.  </li>
-                                                        <li><i class="fa-regular fa-circle-check"></i> Le travail consistait à travailler en desktop-first puis sur tablette puis sur téléphone.</li>
-                                                        <li><i class="fa-regular fa-circle-check"></i> Différentes tailles et formats d'image sont disponibles et il faut faire les meilleurs choix d'optimisation et de rendu.</li>
-                                                        <li><i class="fa-regular fa-circle-check"></i> Les icônes utilisées proviennent de Font Awesome.</li>
-                                                        <li><i class="fa-regular fa-circle-check"></i> La charte graphique est la suivante : `#0065FC` Bleu, `#DEEBFF` Bleu claire, `#F2F2F2` Gris.</li>
-                                                        <li><i class="fa-regular fa-circle-check"></i> Obligation d'utiliser les pixels et les pourcentages au lieu des REM et EM. </li>
-                                                        <li><i class="fa-regular fa-circle-check"></i> Obligation d'utiliser Flexbox uniquement (pas de Grid).</li>
-                                                        <li><i class="fa-regular fa-circle-check"></i> Interdiction d'utiliser un framework CSS ou préprocesseur CSS.</li>
-                                                        <li><i class="fa-regular fa-circle-check"></i> Utilisation des balises sémantiques en HTML.</li>
-                                                        <li><i class="fa-regular fa-circle-check"></i> Code valide au W3C : <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fbenbxn.github.io%2FOpenClassRooms_Projet_2%2F">HTML</a> & <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2FBenBxn.github.io%2FOpenClassRooms_Projet_2&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=fr">CSS</a></li>
-                                                        <li><i class="fa-regular fa-circle-check"></i> Compatible sur les dernières versions de Google Chrome et Mozilla Firefox.</li>
+
+                                    </div>
+
+                                    <div class="colone2-modal">
+                                            <div class="information-modal info-modal2">
+                                                <div class="block-info-modal">
+                                                    <h5 class="h3">Informations</h5>
+                                                    <div>
+                                                        <h6 class="h4"><strong> Contexte :</strong></h6>
+                                                        <p>
+                                                            Stagiaire en tant que développeur web chez Booki, une petite entreprise proposant un outil de planification de vacances ! Son site permettra aux usagers de trouver des hébergements et des activités dans la ville de leur choix.<br>
+                                                            Chargé de créer un prototype en intégrant les maquettes réalisées par le designer UI, qui serviront de base de code pour le reste du développement, il faudra respecter les spécifications de design et les contraintes techniques reçues par mail via la CTO.<br>
+                                                        </p>
+                                                    </div>
+                                                    <div>
+                                                        <h6 class="h4"><strong>Cahier des charges :</strong></h6>
+                                                        
+                                                            <i>Spécifications fonctionnelles & techniques : </i>
+                                                            <ul>
+                                                                <li><i class="fa-regular fa-circle-check"></i> Le texte du champ de recherche doit être éditable.</li>
+                                                                <li><i class="fa-regular fa-circle-check"></i> Les activités et hébergements doivent être cliquables en intégralité (liens vides).</li>
+                                                                <li><i class="fa-regular fa-circle-check"></i> Un effet de survol sur les filtres doit être présent.</li>
+                                                                <li><i class="fa-regular fa-circle-check"></i> Les liens "Hébergements" et "Activités" doivent mener à la section correspondante.</li>
+                                                                <li><i class="fa-regular fa-circle-check"></i> Nous disposons des maquettes Desktop et Mobile. Le site doit être également adapté sur tablette avec les modifications nécessaires.  </li>
+                                                                <li><i class="fa-regular fa-circle-check"></i> Le travail consistait à travailler en desktop-first puis sur tablette puis sur téléphone.</li>
+                                                                <li><i class="fa-regular fa-circle-check"></i> Différentes tailles et formats d'image sont disponibles et il faut faire les meilleurs choix d'optimisation et de rendu.</li>
+                                                                <li><i class="fa-regular fa-circle-check"></i> Les icônes utilisées proviennent de Font Awesome.</li>
+                                                                <li><i class="fa-regular fa-circle-check"></i> La charte graphique est la suivante : `#0065FC` Bleu, `#DEEBFF` Bleu claire, `#F2F2F2` Gris.</li>
+                                                                <li><i class="fa-regular fa-circle-check"></i> Obligation d'utiliser les pixels et les pourcentages au lieu des REM et EM. </li>
+                                                                <li><i class="fa-regular fa-circle-check"></i> Obligation d'utiliser Flexbox uniquement (pas de Grid).</li>
+                                                                <li><i class="fa-regular fa-circle-check"></i> Interdiction d'utiliser un framework CSS ou préprocesseur CSS.</li>
+                                                                <li><i class="fa-regular fa-circle-check"></i> Utilisation des balises sémantiques en HTML.</li>
+                                                                <li><i class="fa-regular fa-circle-check"></i> Code valide au W3C : <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fbenbxn.github.io%2FOpenClassRooms_Projet_2%2F">HTML</a> & <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2FBenBxn.github.io%2FOpenClassRooms_Projet_2&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=fr">CSS</a></li>
+                                                                <li><i class="fa-regular fa-circle-check"></i> Compatible sur les dernières versions de Google Chrome et Mozilla Firefox.</li>
+                                                            </ul>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    
+        <!--technologies modal-->
+                                    
+                                            <div class="block-techno-modal">
+                                                <div class="modal-technologies">
+                                                    <h5 class="h3">Technologies</h5>
+
+                                                    <ul class="icon-technologie">
+                                                        <li><img src="./img/icons/HTML5_logo.png" alt="icon"></li>
+                                                        <li><img src="./img/icons/CSS3_logo.png" alt="icon"></li>
+                                                        <li><img src="./img/icons/vscode_icon.png" alt="icon"></li>
                                                     </ul>
-                                                
+
+                                                    <ul class="list-unstyled lien-modal-projet">
+                                                        <li><a href="https://github.com/BenBxn/OpenClassRooms_Projet_2" target="_blank"><img src="./img/icons/github-icon2.png" width="25" height="25" alt="icon">Repo du Projet Booki</a></li>
+                                                        <li><a href="https://BenBxn.github.io/OpenClassRooms_Projet_2" target="_blank"><img src="./img/icons/www-icon2.png" width="25" height="25" alt="icon">SiteWeb du Projet Booki</a></li>
+                                                    </ul>
+                                                </div>
                                             </div>
-                                        </div>
                                     </div>
-<!--technologies modal-->
-                                    <div class="block-techno-modal">
-                                        <div class="modal-technologies">
-                                            <h5 class="h3">Technologies</h5>
+                                </div>
 
-                                            <ul class="icon-technologie">
-                                                <li><img src="./img/icons/HTML5_logo.png" alt="icon"></li>
-                                                <li><img src="./img/icons/CSS3_logo.png" alt="icon"></li>
-                                                <li><img src="./img/icons/vscode_icon.png" alt="icon"></li>
-                                            </ul>
 
-                                            <ul class="list-unstyled lien-modal-projet">
-                                                <li><a href="https://github.com/BenBxn/OpenClassRooms_Projet_2" target="_blank"><img src="./img/icons/github-icon2white.png" width="25" height="25" alt="icon">Repo du Projet Booki</a></li>
-                                                <li><a href="https://BenBxn.github.io/OpenClassRooms_Projet_2" target="_blank"><img src="./img/icons/www-icon.png" width="25" height="25" alt="icon">SiteWeb du Projet Booki</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
+
                                     <div class="close-bottom-modal">
                                         <button class="modal__close2">
                                         <i class="fa-solid fa-xmark"></i> Fermer la fenêtre
@@ -417,7 +449,20 @@
                             <p class="category">Développement Web</p>
                         </div>
                         <div class="card__overlay">
-                            <a href="#" class="card__link" data-id="modal-2">+</a>
+                            <a href="#" class="card__link" data-id="modal-2">
+
+
+                                <div class="block_overlay">
+                                    <h4 class="title_overlay">Projet Front-End</h4>
+                                    <p>Conception d’un site avec des animation CSS</p>
+                                    <ul>
+                                        <li>HTML, CSS et SASS</li>
+                                    </ul>
+                                    <p class="overlay_clic">Cliquez pour en savoir plus</p>
+                                </div>
+
+
+                            </a>
                         </div>
                     </div>
 <!-- modal_cards2 -->
@@ -430,109 +475,130 @@
                         <div class="modal__content">
                             <div class="container">
 <!--logo modal-->
-                                <div class="grid__item image-modal-logo">
-                                    <img src="./img/Portfolio/ohmyfood-logo.png" loading="lazy"
-                                    class="card__image" alt="ohmyfood logo" >
-                                </div>
-<!--Voir pour carrousselle-->
+                                <div class="modal__title">
 
-                                <section class="carousel-slider">
-                                    <div class="slider">
-                                        <figure>
-                                            <div class="slider-img"><img src="./img/Portfolio/ohmyfood-mockup.png" loading="lazy"
-                                                class="card__image" alt="ohmyfood mockup" ></div>
-                                            <div class="slider-img"><img src="./img/Portfolio/ohmyfood1.png" loading="lazy"
-                                                class="card__image" alt="ohmyfood mockup" ></div>
-                                            <div class="slider-img"><img src="./img/Portfolio/ohmyfood2.png" loading="lazy"
-                                                class="card__image" alt="ohmyfood mockup" ></div>
-                                            <div class="slider-img"><img src="./img/Portfolio/ohmyfood3.png" loading="lazy"
-                                                class="card__image" alt="ohmyfood mockup" ></div>
-                                            <div class="slider-img"><img src="./img/Portfolio/ohmyfood4.png" loading="lazy"
-                                                class="card__image" alt="ohmyfood mockup" ></div>
-                                        </figure>
+                                    <h4 class="h2">OhMyFood!</h4>
+                                    <div class="image-modal-logo">
+                                        <img src="./img/Portfolio/ohmyfood-logo.png" loading="lazy"
+                                        class="card__image" alt="ohmyfood logo" >
                                     </div>
-                                </section>
+
+                                </div>
+
+<!--info et carrouselle modal-->
+                                <div class="block-conlones">
+
+                                    <div class="colone1-modal">
+<!--carrousselle-->     
+                                            <section class="carousel-slider">
+                                                <div class="slider">
+                                                    <figure>
+                                                        <div class="slider-img"><img src="./img/Portfolio/ohmyfood-mockup.png" loading="lazy"
+                                                            class="card__image" alt="ohmyfood mockup" ></div>
+                                                        <div class="slider-img"><img src="./img/Portfolio/ohmyfood1.png" loading="lazy"
+                                                            class="card__image" alt="ohmyfood mockup" ></div>
+                                                        <div class="slider-img"><img src="./img/Portfolio/ohmyfood2.png" loading="lazy"
+                                                            class="card__image" alt="ohmyfood mockup" ></div>
+                                                        <div class="slider-img"><img src="./img/Portfolio/ohmyfood3.png" loading="lazy"
+                                                            class="card__image" alt="ohmyfood mockup" ></div>
+                                                        <div class="slider-img"><img src="./img/Portfolio/ohmyfood4.png" loading="lazy"
+                                                            class="card__image" alt="ohmyfood mockup" ></div>
+                                                    </figure>
+                                                </div>
+                                            </section>
 
 <!--informations modal-->
-                                    <div class="grid__item information-modal">
-                                        <h4 class="modal__title h2">OhMyFood!</h4>
-                                        <p>
-                                            <i class="fa-regular fa-calendar"></i>
-                                            <i>Année : Juin 2022</i>
-                                        </p>
-                                        <p class="category">
-                                            <i class="fa-solid fa-tag"></i>
-                                            Développement Web
-                                        </p>
-                                        <div class="intro-modal">
-                                            <img src="./img/icons/Logo_OpenClassrooms.png" alt="icon">
-                                            <p>
-                                                Ce projet est le n°3 du parcours Développeur Web OpenClassRooms, qui consiste à dynamiser une page web avec des animations CSS.
-                                            </p>
-                                        </div>
-                                        <div class="block-info-modal">
-                                            <h5 class="h3">Informations</h5>
-                                            <div>
-                                                <h6 class="h4"><strong> Contexte :</strong></h6>
+                                            <div class="information-modal info-modal1">
+
                                                 <p>
-                                                    Employé en tant que développeur junior chez Ohmyfood!, une jeune startup qui voudrait s'imposer sur le marché de la restauration. L'objectif est de développer un site 100% mobile qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée.<br>
-                                                La commerciale chargée de démarcher les restaurants a réussi à convaincre 4 responsables de déposer leur carte en ligne. Un brief est établi en équipe avec le CTO. L'UX nous envoie les maquettes du site par mail.<br>
-                                            </p>
+                                                    <i class="fa-regular fa-calendar"></i>
+                                                    <i>Année : Juin 2022</i>
+                                                </p>
+                                                <p class="category">
+                                                    <i class="fa-solid fa-tag"></i>
+                                                    Développement Web
+                                                </p>
+                                                <div class="intro-modal">
+                                                    <img src="./img/icons/Logo_OpenClassrooms.png" alt="icon">
+                                                    <p>
+                                                        Ce projet est le n°3 du parcours Développeur Web OpenClassRooms, qui consiste à dynamiser une page web avec des animations CSS.
+                                                    </p>
+                                                </div>
                                             </div>
-                                            <div>
-                                                <h6 class="h4"><strong>Cahier des charges :</strong></h6>
-                                                
-                                                    <i>Spécifications fonctionnelles & techniques</i>
-                                                    <ul>
-                                                        <li><i class="fa-regular fa-circle-check"></i> Au survol les boutons principaux doivent légèrement s'éclaicrir avec une ombre plus visible.</li>
-                                                        <li><i class="fa-regular fa-circle-check"></i> Un bouton "J'aime" en forme de cœur doit se remplir progressivement en cas de clic ou de hover.</li>
-                                                        <li><i class="fa-regular fa-circle-check"></i> Un "loading spinner" cohérent avec la charte graphique doit s'afficher sur la page d'accueil.</li>
-                                                        <li><i class="fa-regular fa-circle-check"></i> Les groupes "Entrée", "Plat", "Dessert" doivent apparaître progressivement avec un léger décalage.</li>
-                                                        <li><i class="fa-regular fa-circle-check"></i> Sur un plat, une coche doit apparaitre en coulissant de la droite vers la gauche.</li>
-                                                        <li><i class="fa-regular fa-circle-check"></i> Nous disposons de la maquette mobile. Le site doit être également adapté sur tablette et desktop.</li>
-                                                        <li><i class="fa-regular fa-circle-check"></i> Le travail consistait à travailler en mobile-first puis sur tablette puis sur ordinateur.</li>
-                                                        <li><i class="fa-regular fa-circle-check"></i> Les icônes utilisées proviennent de Font Awesome.</li>
-                                                        <li><i class="fa-regular fa-circle-check"></i> La charte graphique est la suivante : Primaire #9356DC, Secondaire #FF79DA, Tertiaire #99E2D0.</li>
-                                                        <li><i class="fa-regular fa-circle-check"></i> Les polices doivent être pour le logo et les titres : Shrikhand, et pour le texte : Roboto. </li>
-                                                        <li><i class="fa-regular fa-circle-check"></i> Interdiction d'utiliser un framework CSS et/ou du JS.</li>
-                                                        <li><i class="fa-regular fa-circle-check"></i> Il est conseillé d'utiliser SASS.</li>
-                                                        <li><i class="fa-regular fa-circle-check"></i> Code valide au W3C : <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fbenbxn.github.io%2FOpenClassRooms_Projet_3%2F">HTML</a> & <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbenbxn.github.io%2FOpenClassRooms_Projet_3%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=fr">CSS</a></li>
-                                                        <li><i class="fa-regular fa-circle-check"></i> Compatible sur les dernières versions de Google Chrome et Mozilla Firefox.</li>
-                                                    </ul>
-                                                
-                                            </div>
-                                        </div>
+
                                     </div>
+
+                                    <div class="colone2-modal">
+                                            <div class="information-modal info-modal2">
+                                                <div class="block-info-modal">
+                                                    <h5 class="h3">Informations</h5>
+                                                    <div>
+                                                        <h6 class="h4"><strong> Contexte :</strong></h6>
+                                                        <p>
+                                                            Employé en tant que développeur junior chez Ohmyfood!, une jeune startup qui voudrait s'imposer sur le marché de la restauration. L'objectif est de développer un site 100% mobile qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée.<br>
+                                                            La commerciale chargée de démarcher les restaurants a réussi à convaincre 4 responsables de déposer leur carte en ligne. Un brief est établi en équipe avec le CTO. L'UX nous envoie les maquettes du site par mail.<br>
+                                                        </p>
+                                                    </div>
+                                                    <div>
+                                                        <h6 class="h4"><strong>Cahier des charges :</strong></h6>
+                                                        
+                                                            <i>Spécifications fonctionnelles & techniques</i>
+                                                            <ul>
+                                                                <li><i class="fa-regular fa-circle-check"></i> Au survol les boutons principaux doivent légèrement s'éclaicrir avec une ombre plus visible.</li>
+                                                                <li><i class="fa-regular fa-circle-check"></i> Un bouton "J'aime" en forme de cœur doit se remplir progressivement en cas de clic ou de hover.</li>
+                                                                <li><i class="fa-regular fa-circle-check"></i> Un "loading spinner" cohérent avec la charte graphique doit s'afficher sur la page d'accueil.</li>
+                                                                <li><i class="fa-regular fa-circle-check"></i> Les groupes "Entrée", "Plat", "Dessert" doivent apparaître progressivement avec un léger décalage.</li>
+                                                                <li><i class="fa-regular fa-circle-check"></i> Sur un plat, une coche doit apparaitre en coulissant de la droite vers la gauche.</li>
+                                                                <li><i class="fa-regular fa-circle-check"></i> Nous disposons de la maquette mobile. Le site doit être également adapté sur tablette et desktop.</li>
+                                                                <li><i class="fa-regular fa-circle-check"></i> Le travail consistait à travailler en mobile-first puis sur tablette puis sur ordinateur.</li>
+                                                                <li><i class="fa-regular fa-circle-check"></i> Les icônes utilisées proviennent de Font Awesome.</li>
+                                                                <li><i class="fa-regular fa-circle-check"></i> La charte graphique est la suivante : Primaire #9356DC, Secondaire #FF79DA, Tertiaire #99E2D0.</li>
+                                                                <li><i class="fa-regular fa-circle-check"></i> Les polices doivent être pour le logo et les titres : Shrikhand, et pour le texte : Roboto. </li>
+                                                                <li><i class="fa-regular fa-circle-check"></i> Interdiction d'utiliser un framework CSS et/ou du JS.</li>
+                                                                <li><i class="fa-regular fa-circle-check"></i> Il est conseillé d'utiliser SASS.</li>
+                                                                <li><i class="fa-regular fa-circle-check"></i> Code valide au W3C : <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fbenbxn.github.io%2FOpenClassRooms_Projet_3%2F">HTML</a> & <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbenbxn.github.io%2FOpenClassRooms_Projet_3%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=fr">CSS</a></li>
+                                                                <li><i class="fa-regular fa-circle-check"></i> Compatible sur les dernières versions de Google Chrome et Mozilla Firefox.</li>
+                                                            </ul>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+
 <!--technologies modal-->
-                                    <div class="block-techno-modal">
-                                        <div class="modal-technologies">
-                                            <h5 class="h3">Technologies</h5>
+                                            <div class="block-techno-modal">
+                                                <div class="modal-technologies">
+                                                    <h5 class="h3">Technologies</h5>
 
-                                            <ul class="icon-technologie">
-                                                <li><img src="./img/icons/HTML5_logo.png" alt="icon"></li>
-                                                <li><img src="./img/icons/CSS3_logo.png" alt="icon"></li>
-                                                <li><img src="./img/icons/sass-icon.png" alt="icon"></li>
-                                                <li><img src="./img/icons/vscode_icon.png" alt="icon"></li>
-                                            </ul>
+                                                    <ul class="icon-technologie">
+                                                        <li><img src="./img/icons/HTML5_logo.png" alt="icon"></li>
+                                                        <li><img src="./img/icons/CSS3_logo.png" alt="icon"></li>
+                                                        <li><img src="./img/icons/sass-icon.png" alt="icon"></li>
+                                                        <li><img src="./img/icons/vscode_icon.png" alt="icon"></li>
+                                                    </ul>
 
-                                            <ul class="list-unstyled lien-modal-projet">
-                                                <li><a href="https://github.com/BenBxn/OpenClassRooms_Projet_3" target="_blank"><img src="./img/icons/github-icon2white.png" width="25" height="25" alt="icon">Repo du Projet Ohmyfood!</a></li>
-                                                <li><a href="https://BenBxn.github.io/OpenClassRooms_Projet_3" target="_blank"><img src="./img/icons/www-icon.png" width="25" height="25" alt="icon">SiteWeb du Projet Ohmyfood!</a></li>
-                                            </ul>
-                                        </div>
+                                                    <ul class="list-unstyled lien-modal-projet">
+                                                        <li><a href="https://github.com/BenBxn/OpenClassRooms_Projet_3" target="_blank"><img src="./img/icons/github-icon2.png" width="25" height="25" alt="icon">Repo du Projet Ohmyfood!</a></li>
+                                                        <li><a href="https://BenBxn.github.io/OpenClassRooms_Projet_3" target="_blank"><img src="./img/icons/www-icon2.png" width="25" height="25" alt="icon">SiteWeb du Projet Ohmyfood!</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
                                     </div>
-                                    <div>
+                                </div>
+
+
+
+                                    <div class="close-bottom-modal">
                                         <button class="modal__close2">
                                         <i class="fa-solid fa-xmark"></i> Fermer la fenêtre
                                         </button>
                                     </div>
                             </div>
                         </div>
-
                     </div>
                     <!--fin modal-->
                 </div>
-<!-- in card -->
+<!-- fin card -->
 
                 <!--cards3 ****************************************** La_Panthere-->
                 <div class="grid__item">
@@ -544,115 +610,152 @@
                             <p class="category">Développement Web</p>
                         </div>
                         <div class="card__overlay">
-                            <a href="#" class="card__link" data-id="modal-3">+</a>
+                            <a href="#" class="card__link" data-id="modal-3">
+
+
+                                <div class="block_overlay">
+                                    <h4 class="title_overlay">Projet Audit SEO</h4>
+                                    <p>Optimisation d’un site web existant</p>
+                                    <ul>
+                                        <li>Analyse et amélioration du SEO du site</li>
+                                        <li>Rapport d’analyse comparative</li>
+                                        <li>Rapport d’optimisation</li>
+                                    </ul>
+                                    <p class="overlay_clic">Cliquez pour en savoir plus</p>
+                                </div>
+
+
+
+                            </a>
                         </div>
                     </div>
 <!-- modal_cards3 -->
                     <div class="modal" id="modal-3">
-                        <button class="modal__close">
+                        <div>
+                            <button class="modal__close">
                             <i class="fa-solid fa-xmark"></i>
-                        </button>
+                            </button>
+                        </div>
                         <div class="modal__content">
                             <div class="container">
-<!--logo modal-->
-                                <div class="grid__item image-modal-logo">
-                                    <img src="./img/Portfolio/panthere-logo.png" loading="lazy"
-                                    class="card__image" alt="panthere logo">
-                                </div>
-<!--Voir pour carrousselle-->
-                                <section class="carousel-slider">
-                                    <div class="slider">
-                                        <figure>
-                                            <div class="slider-img"><img src="./img/Portfolio/panthere-mockup.png" loading="lazy"
-                                                class="card__image" alt="panthere mockup" ></div>
-                                            <div class="slider-img"><img src="./img/Portfolio/Panthere_lighthouse.png" loading="lazy"
-                                                class="card__image" alt="panthere mockup" ></div>
-                                            <div class="slider-img"><img src="./img/Portfolio/Panthere_PageSpeedInsights.png" loading="lazy"
-                                                class="card__image" alt="panthere mockup" ></div>
-                                            <div class="slider-img"><img src="./img/Portfolio/Panthere_Wave.png" loading="lazy"
-                                                class="card__image" alt="panthere mockup" ></div>
-                                            <div class="slider-img"><img src="./img/Portfolio/Panthere_Validation_W3C.png" loading="lazy"
-                                                class="card__image" alt="panthere mockup" ></div>
-                                        </figure>
+<!--logo modal-->       
+                                <div class="modal__title">
+                                    
+                                    <h4 class="h2">Agence La Panthere</h4> 
+
+                                    <div class="image-modal-logo">
+                                        <img src="./img/Portfolio/panthere-logo.png" loading="lazy"
+                                        class="card__image" alt="panthere logo">
                                     </div>
-                                </section>
+
+                                </div>
+<!--info et carrouselle modal-->
+                                <div class="block-conlones">
+
+                                    <div class="colone1-modal">
+<!--carrousselle-->   
+                                        <section class="carousel-slider">
+                                            <div class="slider">
+                                                <figure>
+                                                    <div class="slider-img"><img src="./img/Portfolio/panthere-mockup.png" loading="lazy"
+                                                        class="card__image" alt="panthere mockup" ></div>
+                                                    <div class="slider-img"><img src="./img/Portfolio/Panthere_lighthouse.png" loading="lazy"
+                                                        class="card__image" alt="panthere mockup" ></div>
+                                                    <div class="slider-img"><img src="./img/Portfolio/Panthere_PageSpeedInsights.png" loading="lazy"
+                                                        class="card__image" alt="panthere mockup" ></div>
+                                                    <div class="slider-img"><img src="./img/Portfolio/Panthere_Wave.png" loading="lazy"
+                                                        class="card__image" alt="panthere mockup" ></div>
+                                                    <div class="slider-img"><img src="./img/Portfolio/Panthere_Validation_W3C.png" loading="lazy"
+                                                        class="card__image" alt="panthere mockup" ></div>
+                                                </figure>
+                                            </div>
+                                        </section>
                                 <!-- <div class="grid__item image-modal-carroussel">
                                 </div> -->
 <!--informations modal-->
-                                    <div class="grid__item information-modal">
-                                        <h4 class="modal__title h2">Agence La Panthere</h4>
-                                        <p>
-                                            <i class="fa-regular fa-calendar"></i>
-                                            <i>Année : Juillet 2022</i>
-                                        </p>
-                                        <p class="category">
-                                            <i class="fa-solid fa-tag"></i>
-                                            Développement Web
-                                        </p>
-                                        <div class="intro-modal">
-                                            <img src="./img/icons/Logo_OpenClassrooms.png" alt="icon">
+                                        <div class="information-modal info-modal1">
+
                                             <p>
-                                                Ce projet est le n°4 du parcours Développeur Web OpenClassRooms, qui consiste à Optimiser un site web existant.
+                                                <i class="fa-regular fa-calendar"></i>
+                                                <i>Année : Juillet 2022</i>
                                             </p>
-                                        </div>
-                                        <div class="block-info-modal">
-                                            <h5 class="h3">Informations</h5>
-                                            <div>
-                                                <h6 class="h4"><strong> Contexte :</strong></h6>
+                                            <p class="category">
+                                                <i class="fa-solid fa-tag"></i>
+                                                Développement Web
+                                            </p>
+                                            <div class="intro-modal">
+                                                <img src="./img/icons/Logo_OpenClassrooms.png" alt="icon">
                                                 <p>
-                                                    Employé pour l'agence La Panthère, une agence de web design basée à Lyon dont l'activité est en perte de vitesse face à une concurrence rude.<br>
-                                                    L'agence n'apparaît qu'en deuxieme page des recherches Google, la fondatrice de l’agence nous sollicite pour effectuer un audit du site.<br>
+                                                    Ce projet est le n°4 du parcours Développeur Web OpenClassRooms, qui consiste à Optimiser un site web existant.
                                                 </p>
                                             </div>
-                                            <div>
-                                                <h6 class="h4"><strong>Cahier des charges :</strong></h6>
-                                                
-                                                <ul>
-                                                    <li><i class="fa-regular fa-circle-check"></i> Indiquer les parties du site qui ne sont pas optinimisées pour le SEO et/ou qui ne sont pas à jour en termes d'accessibilité.</li>
-                                                    <li><i class="fa-regular fa-circle-check"></i> Justifier les choix, Ajouter les bonnes pratiques & Partager les sources.</li>
-                                                    <li><i class="fa-regular fa-circle-check"></i> Selectionner 10 recommandations ou plus pour améliorer le site.</li>
-                                                    <li><i class="fa-regular fa-circle-check"></i> Optimiser le site en appliquant les recommandations à son contenu et à son code source.</li>
-                                                    <li><i class="fa-regular fa-circle-check"></i> Présenter dans un rapport d’optimisation les résultats obtenus et inclure les comparaisons pour les 10 recommandations.</li>
-                                                    <li><i class="fa-regular fa-circle-check"></i> Code valide au W3C : <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fbenbxn.github.io%2FOpenClassRooms_Projet_4%2Findex.html">HTML</a> & <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbenbxn.github.io%2FOpenClassRooms_Projet_4%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=fr">CSS</a></li>
-                                                    <li><i class="fa-regular fa-circle-check"></i> Compatible sur les dernières versions de Google Chrome et Mozilla Firefox.</li>
-                                                </ul>
-                                                
-                                            </div>
-                                            <div>
-                                                <h6 class="h4"><strong>Documents :</strong></h6>
-                                                
-                                                    <ul class="document_modal">
-                                                        <li><a class="bouton_lien_cv" href="./img/Portfolio/docs/rapport_analyse.pdf" target="_blank" title="Rapport d'analyse en Pdf"> Rapport d'analyse </a></li>
-                                                        <li><a class="bouton_lien_cv" href="./img/Portfolio/docs/rapport_optimisation.pdf" target="_blank" title="Rapport d'optimisation en Pdf"> Rapport d'optimisation </a></li>
-                                                        <li></li>
+                                        </div>
+                                    </div>
+
+                                    <div class="colone2-modal">
+                                        <div class="information-modal info-modal2">
+                                            <div class="block-info-modal">
+                                                <h5 class="h3">Informations</h5>
+                                                <div>
+                                                    <h6 class="h4"><strong> Contexte :</strong></h6>
+                                                    <p>
+                                                        Employé pour l'agence La Panthère, une agence de web design basée à Lyon dont l'activité est en perte de vitesse face à une concurrence rude.<br>
+                                                        L'agence n'apparaît qu'en deuxieme page des recherches Google, la fondatrice de l’agence nous sollicite pour effectuer un audit du site.<br>
+                                                    </p>
+                                                </div>
+                                                <div>
+                                                    <h6 class="h4"><strong>Cahier des charges :</strong></h6>
+                                                    
+                                                    <ul>
+                                                        <li><i class="fa-regular fa-circle-check"></i> Indiquer les parties du site qui ne sont pas optinimisées pour le SEO et/ou qui ne sont pas à jour en termes d'accessibilité.</li>
+                                                        <li><i class="fa-regular fa-circle-check"></i> Justifier les choix, Ajouter les bonnes pratiques & Partager les sources.</li>
+                                                        <li><i class="fa-regular fa-circle-check"></i> Selectionner 10 recommandations ou plus pour améliorer le site.</li>
+                                                        <li><i class="fa-regular fa-circle-check"></i> Optimiser le site en appliquant les recommandations à son contenu et à son code source.</li>
+                                                        <li><i class="fa-regular fa-circle-check"></i> Présenter dans un rapport d’optimisation les résultats obtenus et inclure les comparaisons pour les 10 recommandations.</li>
+                                                        <li><i class="fa-regular fa-circle-check"></i> Code valide au W3C : <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fbenbxn.github.io%2FOpenClassRooms_Projet_4%2Findex.html">HTML</a> & <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbenbxn.github.io%2FOpenClassRooms_Projet_4%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=fr">CSS</a></li>
+                                                        <li><i class="fa-regular fa-circle-check"></i> Compatible sur les dernières versions de Google Chrome et Mozilla Firefox.</li>
                                                     </ul>
-                                                
+                                                    
+                                                </div>
+                                                <div>
+                                                    <h6 class="h4"><strong>Documents :</strong></h6>
+                                                    
+                                                        <ul class="document_modal">
+                                                            <li><a class="bouton_lien_cv" href="./img/Portfolio/docs/rapport_analyse.pdf" target="_blank" title="Rapport d'analyse en Pdf"> Rapport d'analyse </a></li>
+                                                            <li><a class="bouton_lien_cv" href="./img/Portfolio/docs/rapport_optimisation.pdf" target="_blank" title="Rapport d'optimisation en Pdf"> Rapport d'optimisation </a></li>
+                                                            <li></li>
+                                                        </ul>
+                                                    
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
 <!--technologies modal-->
-                                    <div class="block-techno-modal">
-                                        <div class="modal-technologies">
-                                            <h5 class="h3">Technologies</h5>
+                                        <div class="block-techno-modal">
+                                            <div class="modal-technologies">
+                                                <h5 class="h3">Technologies</h5>
 
-                                            <ul class="icon-technologie">
-                                                <li><img src="./img/icons/HTML5_logo.png" alt="icon"></li>
-                                                <li><img src="./img/icons/CSS3_logo.png" alt="icon"></li>
-                                                <li><img src="./img/icons/vscode_icon.png" alt="icon"></li>
-                                            </ul>
+                                                <ul class="icon-technologie">
+                                                    <li><img src="./img/icons/HTML5_logo.png" alt="icon"></li>
+                                                    <li><img src="./img/icons/CSS3_logo.png" alt="icon"></li>
+                                                    <li><img src="./img/icons/vscode_icon.png" alt="icon"></li>
+                                                </ul>
 
-                                            <ul class="list-unstyled lien-modal-projet">
-                                                <li><a href="https://benbxn.github.io/OpenClassRooms_Projet_4_Original/index.html " target="_blank"><img src="./img/icons/icon_optimisation.png" width="25" height="25" alt="icon">SiteWeb original La Panthère</a></li>
-                                                <li><a href="https://github.com/BenBxn/OpenClassRooms_Projet_4" target="_blank"><img src="./img/icons/github-icon2white.png" width="25" height="25" alt="icon">Repo du Projet La Panthère</a></li>
-                                                <li><a href="https://benbxn.github.io/OpenClassRooms_Projet_4/index.html" target="_blank"><img src="./img/icons/www-icon.png" width="25" height="25" alt="icon">SiteWeb optimisé du Projet La Panthère</a></li>
-                                            </ul>
+                                                <ul class="list-unstyled lien-modal-projet">
+                                                    <li><a href="https://benbxn.github.io/OpenClassRooms_Projet_4_Original/index.html " target="_blank"><img src="./img/icons/icon_optimisation.png" width="25" height="25" alt="icon">SiteWeb original</a></li>
+                                                    <li><a href="https://github.com/BenBxn/OpenClassRooms_Projet_4" target="_blank"><img src="./img/icons/github-icon2.png" width="25" height="25" alt="icon">Repo du Projet La Panthère</a></li>
+                                                    <li><a href="https://benbxn.github.io/OpenClassRooms_Projet_4/index.html" target="_blank"><img src="./img/icons/www-icon2.png" width="25" height="25" alt="icon">SiteWeb optimisé du Projet La Panthère</a></li>
+                                                </ul>
+                                            </div>
                                         </div>
+
                                     </div>
-                                    <div>
-                                        <button class="modal__close2">
-                                        <i class="fa-solid fa-xmark"></i> Fermer la fenêtre
-                                        </button>
-                                    </div>
+                                </div>
+
+                                        <div>
+                                            <button class="modal__close2">
+                                            <i class="fa-solid fa-xmark"></i> Fermer la fenêtre
+                                            </button>
+                                        </div>
                             </div>
                         </div>
                     </div>
@@ -670,122 +773,161 @@
                             <p class="category">Développement Web</p>
                         </div>
                         <div class="card__overlay">
-                            <a href="#" class="card__link" data-id="modal-4">+</a>
+                            <a href="#" class="card__link" data-id="modal-4">
+
+
+                                <div class="block_overlay">
+                                    <h4 class="title_overlay">Projet JavaScript</h4>
+                                    <p>Construction d’un site e-commerce</p>
+                                    <ul>
+                                        <li>Gestion d’événements en Javascript</li>
+                                        <li>Interaction avec un web service</li>
+                                        <li>Gestion de données externes</li>
+                                        <li>Mise en place du plan de tests</li>
+                                    </ul>
+                                    <p class="overlay_clic">Cliquez pour en savoir plus</p>
+                                </div>
+
+
+                            </a>
                         </div>
                     </div>
 <!-- modal_cards3 -->
                     <div class="modal" id="modal-4">
-                        <button class="modal__close">
+                        <div>
+                            <button class="modal__close">
                             <i class="fa-solid fa-xmark"></i>
-                        </button>
+                            </button>
+                        </div>
                         <div class="modal__content">
                             <div class="container">
 <!--logo modal-->
-                                <div class="grid__item image-modal-logo">
-                                    <img src="./img/Portfolio/kanap-logo.png" loading="lazy"
-                                    class="card__image" alt="Kanap logo" >
+
+                                <div class="modal__title">
+                                        <h4 class="h2">Kanap</h4>
+                                        <div class="image-modal-logo">
+                                            <img src="./img/Portfolio/kanap-logo.png" loading="lazy"
+                                            class="card__image" alt="Kanap logo" >
+                                        </div>
                                 </div>
-<!--Voir pour carrousselle-->
-                                <section class="carousel-slider">
-                                    <div class="slider">
-                                        <figure>
-                                            <div class="slider-img"><img src="./img/Portfolio/kanap-mockup.png" loading="lazy"
-                                                class="card__image" alt="Kanap mockup" ></div>
-                                            <div class="slider-img"><img src="./img/Portfolio/kanap1.png" loading="lazy"
-                                                class="card__image" alt="Kanap mockup" ></div>
-                                            <div class="slider-img"><img src="./img/Portfolio/kanap2.png" loading="lazy"
-                                                class="card__image" alt="Kanap mockup" ></div>
-                                            <div class="slider-img"><img src="./img/Portfolio/kanap3.png" loading="lazy"
-                                                class="card__image" alt="Kanap mockup" ></div>
-                                            <div class="slider-img"><img src="./img/Portfolio/kanap1.png" loading="lazy"
-                                                class="card__image" alt="Kanap mockup" ></div>
-                                        </figure>
-                                    </div>
-                                </section>
+<!--info et carrouselle modal-->
+                                <div class="block-conlones">
+
+                                    <div class="colone1-modal">
+<!--carrousselle-->  
+                                        <section class="carousel-slider">
+                                            <div class="slider">
+                                                <figure>
+                                                    <div class="slider-img"><img src="./img/Portfolio/kanap-mockup.png" loading="lazy"
+                                                        class="card__image" alt="Kanap mockup" ></div>
+                                                    <div class="slider-img"><img src="./img/Portfolio/kanap1.png" loading="lazy"
+                                                        class="card__image" alt="Kanap mockup" ></div>
+                                                    <div class="slider-img"><img src="./img/Portfolio/kanap2.png" loading="lazy"
+                                                        class="card__image" alt="Kanap mockup" ></div>
+                                                    <div class="slider-img"><img src="./img/Portfolio/kanap3.png" loading="lazy"
+                                                        class="card__image" alt="Kanap mockup" ></div>
+                                                    <div class="slider-img"><img src="./img/Portfolio/kanap1.png" loading="lazy"
+                                                        class="card__image" alt="Kanap mockup" ></div>
+                                                </figure>
+                                            </div>
+                                        </section>
 
                                 <!-- <div class="grid__item image-modal-carroussel">
                                 </div> -->
 <!--informations modal-->
-                                    <div class="grid__item information-modal">
-                                        <h4 class="modal__title h2">Kanap</h4>
-                                        <p>
-                                            <i class="fa-regular fa-calendar"></i>
-                                            <i>Année : Août 2022</i>
-                                        </p>
-                                        <p class="category">
-                                            <i class="fa-solid fa-tag"></i>
-                                            Développement Web
-                                        </p>
-                                        <div class="intro-modal">
-                                            <img src="./img/icons/Logo_OpenClassrooms.png" alt="icon">
+                                        <div class="information-modal info-modal1"> 
+
                                             <p>
-                                                Ce projet est le n°5 du parcours Développeur Web OpenClassRooms, qui consiste à Construire un site e-commerce en Javascript.
+                                                <i class="fa-regular fa-calendar"></i>
+                                                <i>Année : Août 2022</i>
                                             </p>
-                                        </div>
-                                        <div class="block-info-modal">
-                                            <h5 class="h3">Informations</h5>
-                                            <div>
-                                                <h6 class="h4"><strong> Contexte :</strong></h6>
+                                            <p class="category">
+                                                <i class="fa-solid fa-tag"></i>
+                                                Développement Web
+                                            </p>
+                                            <div class="intro-modal">
+                                                <img src="./img/icons/Logo_OpenClassrooms.png" alt="icon">
                                                 <p>
-                                                    Employé dans une agence de développement web, on nous confie une mission pour notre nouveau client « KANAP » , Une marque de canapés qui vend ses produits depuis sa boutique exclusivement.<br>
-                                                    Aujourd’hui, celle-ci souhaiterait avoir une plateforme de e-commerce en plus de sa boutique physique pour vendre ses produits sur Internet.<br>
+                                                    Ce projet est le n°5 du parcours Développeur Web OpenClassRooms, qui consiste à Construire un site e-commerce en Javascript.
                                                 </p>
                                             </div>
-                                            <div>
-                                                <h6 class="h4"><strong>Briefing :</strong></h6>
-                                                
-                                                <i>Avec Corinne, la CTO, Frank,le developpeur front-end et Bilal, le développeur back-end qui implémente l’API, les missions sont :</i>
-                                                <ul>
-                                                    <li><i class="fa-regular fa-circle-check"></i> D'unifier les travaux déjà réalisés par l’équipe en intégrant dynamiquement les éléments de l’API dans les différentes pages web avec JavaScript.</li>
-                                                    <li><i class="fa-regular fa-circle-check"></i> De cloner le code du front-end et de l’API qui est disponible sur ce repo : <a href="https://github.com/OpenClassrooms-Student-Center/P5-Dev-Web-Kanap">OpenClassRoom_repo_projet5</a></li>
-                                                    <li><i class="fa-regular fa-circle-check"></i> De mettre en place un plan de test d’acceptation.</li>
-                                                    <li><i class="fa-regular fa-circle-check"></i> De respecter les spécifications techniques et fonctionnelles du projet.</li>
-                                                    <li><i class="fa-regular fa-circle-check"></i> De prendre connaissance des 4 pages qui ont été mises en place : page d’Accueil, page Produit, page Panier et page Confirmation.</li>
-                                                    <li><i class="fa-regular fa-circle-check"></i> D'intégrer les contenus dynamiquement grâce à JS et l’API.</li>
-                                                    <li><i class="fa-regular fa-circle-check"></i> L'utilisation de tout framework ou librairie JavaScript (React, Angular, Vue ou jQuery, par exemple) est interdite pour ce projet.</li>
-                                                </ul>
-                                                
-                                            </div>
-                                            <div>
-                                                <h6 class="h4"><strong>Cahier des charges :</strong></h6>
-                                                
-                                                <i>Spécifications fonctionnelles & techniques : </i>
-                                                <ul>
-                                                    <li><a class="bouton_lien_cv" href="https://course.oc-static.com/projects/DWJ_FR_P5/DW+P5+-+Specifications+fonctionnelles.pdf" target="_blank" title="Spécification fonctionnelles et techniques - Kanap"> Spécifications - Kanap </a> </li>
-                                                </ul>
-                                                
+                                        </div>
+
+                                    </div>
+
+                                    <div class="colone2-modal">
+                                        <div class="information-modal info-modal2">
+                                            <div class="block-info-modal">
+                                                <h5 class="h3">Informations</h5>
+
+                                                <div>
+                                                    <h6 class="h4"><strong> Contexte :</strong></h6>
+                                                    <p>
+                                                        Employé dans une agence de développement web, on nous confie une mission pour notre nouveau client « KANAP » , Une marque de canapés qui vend ses produits depuis sa boutique exclusivement.<br>
+                                                        Aujourd’hui, celle-ci souhaiterait avoir une plateforme de e-commerce en plus de sa boutique physique pour vendre ses produits sur Internet.<br>
+                                                    </p>
+                                                </div>
+
+                                                <div>
+                                                    <h6 class="h4"><strong>Briefing :</strong></h6>
+                                                    
+                                                    <i>Avec Corinne, la CTO, Frank,le developpeur front-end et Bilal, le développeur back-end qui implémente l’API, les missions sont :</i>
+                                                    <ul>
+                                                        <li><i class="fa-regular fa-circle-check"></i> D'unifier les travaux déjà réalisés par l’équipe en intégrant dynamiquement les éléments de l’API dans les différentes pages web avec JavaScript.</li>
+                                                        <li><i class="fa-regular fa-circle-check"></i> De cloner le code du front-end et de l’API qui est disponible sur ce repo : <a href="https://github.com/OpenClassrooms-Student-Center/P5-Dev-Web-Kanap">OpenClassRoom_repo_projet5</a></li>
+                                                        <li><i class="fa-regular fa-circle-check"></i> De mettre en place un plan de test d’acceptation.</li>
+                                                        <li><i class="fa-regular fa-circle-check"></i> De respecter les spécifications techniques et fonctionnelles du projet.</li>
+                                                        <li><i class="fa-regular fa-circle-check"></i> De prendre connaissance des 4 pages qui ont été mises en place : page d’Accueil, page Produit, page Panier et page Confirmation.</li>
+                                                        <li><i class="fa-regular fa-circle-check"></i> D'intégrer les contenus dynamiquement grâce à JS et l’API.</li>
+                                                        <li><i class="fa-regular fa-circle-check"></i> L'utilisation de tout framework ou librairie JavaScript (React, Angular, Vue ou jQuery, par exemple) est interdite pour ce projet.</li>
+                                                    </ul>
+                                                </div>
+
+                                                <div>
+                                                    <h6 class="h4"><strong>Cahier des charges :</strong></h6>
+                                                    
+                                                    <i>Spécifications fonctionnelles & techniques : </i>
+                                                    <ul>
+                                                        <li><a class="bouton_lien_cv" href="https://course.oc-static.com/projects/DWJ_FR_P5/DW+P5+-+Specifications+fonctionnelles.pdf" target="_blank" title="Spécification fonctionnelles et techniques - Kanap"> Spécifications - Kanap </a> </li>
+                                                    </ul>
+                                                </div>
+
                                             </div>
                                         </div>
-                                    </div>
 <!--technologies modal-->
-                                    <div class="block-techno-modal">
-                                        <div class="modal-technologies">
-                                            <h5 class="h3">Technologies</h5>
+                                        <div class="block-techno-modal">
+                                            <div class="modal-technologies">
+                                                <h5 class="h3">Technologies</h5>
 
-                                            <ul class="icon-technologie">
-                                                <li><img src="./img/icons/HTML5_logo.png" alt="icon"></li>
-                                                <li><img src="./img/icons/CSS3_logo.png" alt="icon"></li>
-                                                <li><img src="./img/icons/JavaScript-logo.png" alt="icon"></li>
-                                                <li><img src="./img/icons/vscode_icon.png" alt="icon"></li>
-                                                <li><img src="./img/icons/nodejs_logo.png" alt="icon"></li>
-                                            </ul>
+                                                <ul class="icon-technologie">
+                                                    <li><img src="./img/icons/HTML5_logo.png" alt="icon"></li>
+                                                    <li><img src="./img/icons/CSS3_logo.png" alt="icon"></li>
+                                                    <li><img src="./img/icons/JavaScript-logo.png" alt="icon"></li>
+                                                    <li><img src="./img/icons/vscode_icon.png" alt="icon"></li>
+                                                    <li><img src="./img/icons/nodejs_logo.png" alt="icon"></li>
+                                                </ul>
 
-                                            <ul class="list-unstyled lien-modal-projet">
-                                                <li><a href="https://github.com/BenBxn/OpenClassRooms_Projet_5" target="_blank"><img src="./img/icons/github-icon2white.png" alt="icon" width="25" height="25">Repo du Projet Kanap</a></li>
-                                            </ul>
+                                                <ul class="list-unstyled lien-modal-projet">
+                                                    <li><a href="https://github.com/BenBxn/OpenClassRooms_Projet_5" target="_blank"><img src="./img/icons/github-icon2.png" alt="icon" width="25" height="25">Repo du Projet Kanap</a></li>
+                                                </ul>
+                                            </div>
                                         </div>
+                                    
                                     </div>
+                                </div>
+
                                     <div>
                                         <button class="modal__close2">
                                         <i class="fa-solid fa-xmark"></i> Fermer la fenêtre
                                         </button>
                                     </div>
+
                             </div>
                         </div>
                     </div>
                     <!--fin modal-->
                 </div>
-<!-- in card -->
+<!-- fin card -->
 
                 <!--cards5 ****************************************** PIIQUANTE-->
                 <div class="grid__item">
@@ -797,117 +939,154 @@
                             <p class="category">Développement Web</p>
                         </div>
                         <div class="card__overlay">
-                            <a href="#" class="card__link" data-id="modal-5">+</a>
+                            <a href="#" class="card__link" data-id="modal-5">
+
+
+                                <div class="block_overlay">
+                                    <h4 class="title_overlay">Projet Back-End</h4>
+                                    <p>Construction d’une API sécurisé</p>
+                                    <ul>
+
+                                        <li>Création d’une API REST </li>
+                                        <li>Gestion des fichiers utilisateur</li>
+                                        <li>Protection du Code selon l’OWASP</li>
+                                        <li>Node, Express et MongoDB</li>
+
+                                    </ul>
+                                    <p class="overlay_clic">Cliquez pour en savoir plus</p>
+                                </div>
+
+
+
+
+                            </a>
                         </div>
                     </div>
-<!-- modal_cards1 -->
+<!-- modal_cards5 -->
                     <div class="modal" id="modal-5">
-                        <button class="modal__close">
+                        <div>
+                            <button class="modal__close">
                             <i class="fa-solid fa-xmark"></i>
-                        </button>
+                            </button>
+                        </div>
                         <div class="modal__content">
                             <div class="container">
 <!--logo modal-->
-                                    <div class="grid__item image-modal-logo">
+                                <div class="modal__title">
+                                    <h4 class="h2">PIIQUANTE</h4>
+                                    <div class="image-modal-logo">
                                         <img src="./img/Portfolio/piiquante-logo.png" loading="lazy"
                                         class="card__image" alt="PIIQUANTE logo" >
                                     </div>
+                                </div>
+<!--info et carrouselle modal-->
+                                <div class="block-conlones">
 
-<!-- carrousselle-->
-                                    <section class="carousel-slider">
-                                        <div class="slider">
-                                            <figure>
-                                                <div class="slider-img"><img src="./img/Portfolio/piiquante-mockup.png" loading="lazy"
-                                                    class="card__image" alt="PIIQUANTE mockup" ></div>
-                                                <div class="slider-img"><img src="./img/Portfolio/Piiquante1.png" loading="lazy"
-                                                    class="card__image" alt="PIIQUANTE mockup" ></div>
-                                                <div class="slider-img"><img src="./img/Portfolio/Piiquante2.png" loading="lazy"
-                                                    class="card__image" alt="PIIQUANTE mockup" ></div>
-                                                <div class="slider-img"><img src="./img/Portfolio/Piiquante3.png" loading="lazy"
-                                                    class="card__image" alt="PIIQUANTE mockup" ></div>
-                                                <div class="slider-img"><img src="./img/Portfolio/Piiquante4.png" loading="lazy"
-                                                    class="card__image" alt="PIIQUANTE mockup" ></div>
-                                            </figure>
-                                        </div>
-                                    </section>
+                                    <div class="colone1-modal">
+    <!--carrousselle-->   
+                                        <section class="carousel-slider">
+                                            <div class="slider">
+                                                <figure>
+                                                    <div class="slider-img"><img src="./img/Portfolio/piiquante-mockup.png" loading="lazy"
+                                                        class="card__image" alt="PIIQUANTE mockup" ></div>
+                                                    <div class="slider-img"><img src="./img/Portfolio/Piiquante1.png" loading="lazy"
+                                                        class="card__image" alt="PIIQUANTE mockup" ></div>
+                                                    <div class="slider-img"><img src="./img/Portfolio/Piiquante2.png" loading="lazy"
+                                                        class="card__image" alt="PIIQUANTE mockup" ></div>
+                                                    <div class="slider-img"><img src="./img/Portfolio/Piiquante3.png" loading="lazy"
+                                                        class="card__image" alt="PIIQUANTE mockup" ></div>
+                                                    <div class="slider-img"><img src="./img/Portfolio/Piiquante4.png" loading="lazy"
+                                                        class="card__image" alt="PIIQUANTE mockup" ></div>
+                                                </figure>
+                                            </div>
+                                        </section>
 
 <!--informations modal-->
-                                    <div class="grid__item information-modal">
-                                        <h4 class="modal__title h2">PIIQUANTE</h4>
-                                        <p>
-                                            <i class="fa-regular fa-calendar"></i>
-                                            <i>Année : Octobre 2022</i>
-                                        </p>
-                                        <p class="category">
-                                            <i class="fa-solid fa-tag"></i>
-                                            Développement Web
-                                        </p>
-                                        <div class="intro-modal">
-                                            <img src="./img/icons/Logo_OpenClassrooms.png" alt="icon">
-                                            <p>Ce projet est le n°6 du parcours Développeur Web chez OpenClassRooms, qui consiste à Construire une API sécurisée pour une application d'avis gastronomiques. 
+                                        <div class="information-modal info-modal1">
+
+                                            <p>
+                                                <i class="fa-regular fa-calendar"></i>
+                                                <i>Année : Octobre 2022</i>
                                             </p>
-                                        </div>
-                                        <div class="block-info-modal">
-                                            <h5 class="h3">Informations</h5>
-                                            <div>
-                                                <h6 class="h4"><strong> Contexte :</strong></h6>
-                                                <p>
-                                                    Développeur back-end indépendant, la responsable produit de Piiquante demande de l'aide pour développer une application web de critique des sauces piquantes appelée « Hot Takes ».<br>
-                                                    La responsable produit souhaite que la première version soit une « galerie de sauces » permettant aux utilisateurs de télécharger leurs sauces piquantes préférées et de liker ou disliker les sauces que d'autres partagent.<br>
-                                                    Le front-end de l'application a été développé à l'aide d'Angular et a été précompilé après des tests internes, mais Piiquante a besoin d'un développeur back-end pour construire l'API.<br>
+                                            <p class="category">
+                                                <i class="fa-solid fa-tag"></i>
+                                                Développement Web
+                                            </p>
+                                            <div class="intro-modal">
+                                                <img src="./img/icons/Logo_OpenClassrooms.png" alt="icon">
+                                                <p>Ce projet est le n°6 du parcours Développeur Web chez OpenClassRooms, qui consiste à Construire une API sécurisée pour une application d'avis gastronomiques. 
                                                 </p>
                                             </div>
-                                            <div>
-                                                <h6 class="h4"><strong>Briefing :</strong></h6>
-                                                
-                                                    <i>Documents transmis : </i>
-                                                <ul>
-                                                    <li><a class="bouton_lien_cv" href="https://s3.eu-west-1.amazonaws.com/course.oc-static.com/projects/DWJ_FR_P6/Requirements_DW_P6.pdf" target="_blank" title="document api OpenClassRooms">  Spécifications pour l'API </a> </li>
-                                                </ul>
-                                                
-                                            </div>
-                                            <div>
-                                                <h6 class="h4"><strong>Cahier des charges :</strong></h6>
-                                                
-                                                    <i>Spécifications fonctionnelles & techniques : </i>
+                                        </div>
+                                    </div>
+
+                                    <div class="colone2-modal">
+                                        <div class="information-modal info-modal2">
+                                            <div class="block-info-modal">
+                                                <h5 class="h3">Informations</h5>
+                                                <div>
+                                                    <h6 class="h4"><strong> Contexte :</strong></h6>
+                                                    <p>
+                                                        Développeur back-end indépendant, la responsable produit de Piiquante demande de l'aide pour développer une application web de critique des sauces piquantes appelée « Hot Takes ».<br>
+                                                        La responsable produit souhaite que la première version soit une « galerie de sauces » permettant aux utilisateurs de télécharger leurs sauces piquantes préférées et de liker ou disliker les sauces que d'autres partagent.<br>
+                                                        Le front-end de l'application a été développé à l'aide d'Angular et a été précompilé après des tests internes, mais Piiquante a besoin d'un développeur back-end pour construire l'API.<br>
+                                                    </p>
+                                                </div>
+                                                <div>
+                                                    <h6 class="h4"><strong>Briefing :</strong></h6>
+                                                    
+                                                        <i>Documents transmis : </i>
                                                     <ul>
-                                                        <li><i class="fa-regular fa-circle-check"></i> Mot de passe haché.</li>
-                                                        <li><i class="fa-regular fa-circle-check"></i> Adresse e-mail de l’utilisateur unique.</li>
-                                                        <li><i class="fa-regular fa-circle-check"></i> Un effet de survol sur les filtres doit être présent.</li>
-                                                        <li><i class="fa-regular fa-circle-check"></i> Une base de données sécurisée.</li>
-                                                        <li><i class="fa-regular fa-circle-check"></i> Une authentification renforcée sur toutes les routes sauce. </li>
-                                                        <li><i class="fa-regular fa-circle-check"></i> Les versions récentes des logiciels avec correctifs de sécurité actualisés.</li>
-                                                        <li><i class="fa-regular fa-circle-check"></i> respecter les spécification de L’API.</li>
+                                                        <li><a class="bouton_lien_cv" href="https://s3.eu-west-1.amazonaws.com/course.oc-static.com/projects/DWJ_FR_P6/Requirements_DW_P6.pdf" target="_blank" title="document api OpenClassRooms">  Spécifications pour l'API </a> </li>
                                                     </ul>
-                                                
+                                                    
+                                                </div>
+                                                <div>
+                                                    <h6 class="h4"><strong>Cahier des charges :</strong></h6>
+                                                    
+                                                        <i>Spécifications fonctionnelles & techniques : </i>
+                                                        <ul>
+                                                            <li><i class="fa-regular fa-circle-check"></i> Mot de passe haché.</li>
+                                                            <li><i class="fa-regular fa-circle-check"></i> Adresse e-mail de l’utilisateur unique.</li>
+                                                            <li><i class="fa-regular fa-circle-check"></i> Un effet de survol sur les filtres doit être présent.</li>
+                                                            <li><i class="fa-regular fa-circle-check"></i> Une base de données sécurisée.</li>
+                                                            <li><i class="fa-regular fa-circle-check"></i> Une authentification renforcée sur toutes les routes sauce. </li>
+                                                            <li><i class="fa-regular fa-circle-check"></i> Les versions récentes des logiciels avec correctifs de sécurité actualisés.</li>
+                                                            <li><i class="fa-regular fa-circle-check"></i> respecter les spécification de L’API.</li>
+                                                        </ul>
+                                                    
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
 <!--technologies modal-->
-                                    <div class="block-techno-modal">
-                                        <div class="modal-technologies">
-                                            <h5 class="h3">Technologies</h5>
+                                        <div class="block-techno-modal">
+                                            <div class="modal-technologies">
+                                                <h5 class="h3">Technologies</h5>
 
-                                            <ul class="icon-technologie">
-                                                <li><img src="./img/icons/HTML5_logo.png" alt="icon"></li>
-                                                <li><img src="./img/icons/CSS3_logo.png" alt="icon"></li>
-                                                <li><img src="./img/icons/JavaScript-logo.png" alt="icon"></li>
-                                                <li><img src="./img/icons/vscode_icon.png" alt="icon"></li>
-                                                <li><img src="./img/icons/nodejs_logo.png" alt="icon"></li>
-                                                <li><img src="./img/icons/mongodb.png" alt="icon"></li>
-                                                <li><img src="./img/icons/postman-icon.png" alt="icon"></li>
-                                            </ul>
+                                                <ul class="icon-technologie">
+                                                    <li><img src="./img/icons/HTML5_logo.png" alt="icon"></li>
+                                                    <li><img src="./img/icons/CSS3_logo.png" alt="icon"></li>
+                                                    <li><img src="./img/icons/JavaScript-logo.png" alt="icon"></li>
+                                                    <li><img src="./img/icons/vscode_icon.png" alt="icon"></li>
+                                                    <li><img src="./img/icons/nodejs_logo.png" alt="icon"></li>
+                                                    <li><img src="./img/icons/mongodb.png" alt="icon"></li>
+                                                    <li><img src="./img/icons/postman-icon.png" alt="icon"></li>
+                                                </ul>
 
-                                            <ul class="list-unstyled lien-modal-projet">
-                                                <li><a href="https://github.com/BenBxn/OpenClassRooms_Projet_6" target="_blank"><img src="./img/icons/github-icon2white.png" alt="icon" width="25" height="25">Repo du Projet Piiquante</a></li>
-                                            </ul>
+                                                <ul class="list-unstyled lien-modal-projet">
+                                                    <li><a href="https://github.com/BenBxn/OpenClassRooms_Projet_6" target="_blank"><img src="./img/icons/github-icon2.png" alt="icon" width="25" height="25">Repo du Projet Piiquante</a></li>
+                                                </ul>
+                                            </div>
                                         </div>
+
                                     </div>
-                                    <div>
-                                        <button class="modal__close2">
-                                        <i class="fa-solid fa-xmark"></i> Fermer la fenêtre
-                                        </button>
-                                    </div>
+                                </div>
+
+                                        <div>
+                                            <button class="modal__close2">
+                                            <i class="fa-solid fa-xmark"></i> Fermer la fenêtre
+                                            </button>
+                                        </div>
                             </div>
                         </div>
                     </div>
@@ -925,119 +1104,158 @@
                             <p class="category">Développement Web</p>
                         </div>
                         <div class="card__overlay">
-                            <a href="#" class="card__link" data-id="modal-6">+</a>
+                            <a href="#" class="card__link" data-id="modal-6">
+
+
+                                <div class="block_overlay">
+                                    <h4 class="title_overlay">Projet React</h4>
+                                    <p>Conception d’une application web de location</p>
+                                    <ul>
+                                        <li>Initialisation de l’application web</li>
+                                        <li>Développement des Routes de l’application web</li>
+                                        <li>Création de composants </li>
+                                        <li> </li>
+                                        <li>React & React-Router</li>
+                                    </ul>
+                                    <p class="overlay_clic">Cliquez pour en savoir plus</p>
+                                </div>
+
+
+                            </a>
                         </div>
                     </div>
 <!-- modal_cards1 -->
                     <div class="modal" id="modal-6">
-                        <button class="modal__close">
+                        <div>
+                            <button class="modal__close">
                             <i class="fa-solid fa-xmark"></i>
-                        </button>
+                            </button>
+                        </div>
                         <div class="modal__content">
                             <div class="container">
-<!--logo modal-->
-                                    <div class="grid__item image-modal-logo">
+<!--logo modal-->       
+                                <div class="modal__title">
+                                    <h4 class="h2">Kasa</h4>
+                                    <div class=" image-modal-logo">
                                         <img src="./img/Portfolio/kasa-logo.png" loading="lazy"
                                         class="card__image" alt="Kasa logo" >
                                     </div>
-<!--Voir pour carrousselle-->
-                                    <section class="carousel-slider">
-                                        <div class="slider">
-                                            <figure>
-                                                <div class="slider-img"><img src="./img/Portfolio/kasa-mockup.png" loading="lazy"
-                                                    class="card__image" alt="Kasa mockup" ></div>
-                                                <div class="slider-img"><img src="./img/Portfolio/kasa1.png" loading="lazy"
-                                                    class="card__image" alt="Kasa mockup" ></div>
-                                                <div class="slider-img"><img src="./img/Portfolio/kasa2.png" loading="lazy"
-                                                    class="card__image" alt="Kasa mockup" ></div>
-                                                <div class="slider-img"><img src="./img/Portfolio/kasa3.png" loading="lazy"
-                                                    class="card__image" alt="Kasa mockup" ></div>
-                                                <div class="slider-img"><img src="./img/Portfolio/kasa4.png" loading="lazy"
-                                                    class="card__image" alt="Kasa mockup" ></div>
-                                                <!--<div class="slider-img"><img src="./img/Portfolio/kasa5.png" loading="lazy"
-                                                    class="card__image" alt="Kasa mockup" ></div>-->
-                                            </figure>
-                                        </div>
-                                    </section>
+                                </div>
+
+<!--info et carrouselle modal-->
+                                <div class="block-conlones">
+
+                                    <div class="colone1-modal">
+<!--carrousselle-->   
+                                        <section class="carousel-slider">
+                                            <div class="slider">
+                                                <figure>
+                                                    <div class="slider-img"><img src="./img/Portfolio/kasa-mockup.png" loading="lazy"
+                                                        class="card__image" alt="Kasa mockup" ></div>
+                                                    <div class="slider-img"><img src="./img/Portfolio/kasa1.png" loading="lazy"
+                                                        class="card__image" alt="Kasa mockup" ></div>
+                                                    <div class="slider-img"><img src="./img/Portfolio/kasa2.png" loading="lazy"
+                                                        class="card__image" alt="Kasa mockup" ></div>
+                                                    <div class="slider-img"><img src="./img/Portfolio/kasa3.png" loading="lazy"
+                                                        class="card__image" alt="Kasa mockup" ></div>
+                                                    <div class="slider-img"><img src="./img/Portfolio/kasa4.png" loading="lazy"
+                                                        class="card__image" alt="Kasa mockup" ></div>
+                                                    <!--<div class="slider-img"><img src="./img/Portfolio/kasa5.png" loading="lazy"
+                                                        class="card__image" alt="Kasa mockup" ></div>-->
+                                                </figure>
+                                            </div>
+                                        </section>
 
 <!--informations modal-->
-                                    <div class="grid__item information-modal">
-                                        <h4 class="modal__title h2">Kasa</h4>
-                                        <p>
-                                            <i class="fa-regular fa-calendar"></i>
-                                            <i>Année : Novembre 2022</i>
-                                        </p>
-                                        <p class="category">
-                                            <i class="fa-solid fa-tag"></i>
-                                            Développement Web
-                                        </p>
-                                        <div class="intro-modal">
-                                            <img src="./img/icons/Logo_OpenClassrooms.png" alt="icon">
-                                            <p>Ce projet est le n°7 du parcours Développeur Web chez OpenClassRooms, qui consiste à Créer une application web de location immobilière avec React. 
+                                        <div class="information-modal info-modal1">
+
+                                            <p>
+                                                <i class="fa-regular fa-calendar"></i>
+                                                <i>Année : Novembre 2022</i>
                                             </p>
-                                        </div>
-                                        <div class="block-info-modal">
-                                            <h5 class="h3">Informations</h5>
-                                            <div>
-                                                <h6 class="h4"><strong> Contexte :</strong></h6>
-                                                <p>
-                                                    Kasa est dans le métier de la location d’appartements entre particuliers et recrute un développeur front-end en freelance pour développer sa nouvelle plateforme web.<br>
-                                                    la CTO lance une refonte totale pour passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end.<br>
+                                            <p class="category">
+                                                <i class="fa-solid fa-tag"></i>
+                                                Développement Web
+                                            </p>
+                                            <div class="intro-modal">
+                                                <img src="./img/icons/Logo_OpenClassrooms.png" alt="icon">
+                                                <p>Ce projet est le n°7 du parcours Développeur Web chez OpenClassRooms, qui consiste à Créer une application web de location immobilière avec React. 
                                                 </p>
                                             </div>
-                                            <div>
-                                                <h6 class="h4"><strong>Briefing :</strong></h6>
-                                                
+                                        </div>
+                                    </div>
+
+                                    <div class="colone2-modal">
+                                        <div class="information-modal info-modal2">
+                                            <div class="block-info-modal">
+                                                <h5 class="h3">Informations</h5>
+                                                <div>
+                                                    <h6 class="h4"><strong> Contexte :</strong></h6>
+                                                    <p>
+                                                        Kasa est dans le métier de la location d’appartements entre particuliers et recrute un développeur front-end en freelance pour développer sa nouvelle plateforme web.<br>
+                                                        la CTO lance une refonte totale pour passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end.<br>
+                                                    </p>
+                                                </div>
+                                                <div>
+                                                    <h6 class="h4"><strong>Briefing :</strong></h6>
                                                     
-                                                <ul>
-                                                    <li>Démarrer le projet React et développer l’ensemble de l’application, les composants React, les routes React Router, en suivant les maquettes Figma : <a class="bouton_lien_portfolio" href="https://www.figma.com/file/bAnXDNqRKCRRP8mY2gcb5p/UI-Design-Kasa-FR?node-id=3%3A0" target="_blank" title="maquette figma kasa"> Maquette Figma - Kasa </a> </li>
-                                                    <li><br></li>
-                                                    <li>Respecter les Outils et contraintes techniques:  <a class="bouton_lien_portfolio" href="https://course.oc-static.com/projects/Front-End+V2/P9+React+1/Coding+guidelines+Kasa+FR.pdf" target="_blank" title="contrainte technique projet 7 kasa"> Contraintes techniques - Kasa </a> </li>
-                                                
-                                                </ul>
+                                                        
+                                                    <ul>
+                                                        <li>Démarrer le projet React et développer l’ensemble de l’application, les composants React, les routes React Router, en suivant les maquettes Figma :</li>
+                                                        <li class="document_lien"><a class="bouton_lien_portfolio" href="https://www.figma.com/file/bAnXDNqRKCRRP8mY2gcb5p/UI-Design-Kasa-FR?node-id=3%3A0" target="_blank" title="maquette figma kasa"> Maquette Figma - Kasa </a> </li>
+                                                        <li><br></li>
+                                                        <li>Respecter les Outils et contraintes techniques:</li>
+                                                        <li class="document_lien"><a class="bouton_lien_portfolio" href="https://course.oc-static.com/projects/Front-End+V2/P9+React+1/Coding+guidelines+Kasa+FR.pdf" target="_blank" title="contrainte technique projet 7 kasa"> Contraintes techniques - Kasa </a> </li>
+                                                    
+                                                    </ul>
 
-                                                
-                                            </div>
-                                            <div>
-                                                <h6 class="h4"><strong>Cahier des charges :</strong></h6>
-                                                
-                                                    <i>Outils  et contraintes techniques : </i>
-                                                <ul>
-                                                    <li><i class="fa-regular fa-circle-check"></i> Utiliser React et React Router.Css est à utiliser par défaut. Pas de librairie React externe.</li>
-                                                    <li><i class="fa-regular fa-circle-check"></i> Découper en composants modulaires et réutilisables.</li>
-                                                    <li><i class="fa-regular fa-circle-check"></i> Structure logique des fichiers.</li>
-                                                    <li><i class="fa-regular fa-circle-check"></i> Un composant par fichier.</li>
-                                                    <li><i class="fa-regular fa-circle-check"></i> Utilisation des props entre les composants.  </li>
-                                                    <li><i class="fa-regular fa-circle-check"></i> Utilisation du state dans les composants quand c'est nécessaire.</li>
-                                                    <li><i class="fa-regular fa-circle-check"></i> Utiliser les listes en itérant dessus.</li>
-                                                    <li><i class="fa-regular fa-circle-check"></i> Gestion des événements.</li>
-                                                    <li><i class="fa-regular fa-circle-check"></i> Les paramètres des routes sont gérés par React Router dans l'URL pour récupérer les informations de chaque logement.</li>
-                                                    <li><i class="fa-regular fa-circle-check"></i> Il existe une page par route. </li>
-                                                    <li><i class="fa-regular fa-circle-check"></i> La page 404 est renvoyée pour chaque route inexistante</li>
-                                                </ul>
-                                                
+                                                    
+                                                </div>
+                                                <div>
+                                                    <h6 class="h4"><strong>Cahier des charges :</strong></h6>
+                                                    
+                                                        <i>Outils  et contraintes techniques : </i>
+                                                    <ul>
+                                                        <li><i class="fa-regular fa-circle-check"></i> Utiliser React et React Router.Css est à utiliser par défaut. Pas de librairie React externe.</li>
+                                                        <li><i class="fa-regular fa-circle-check"></i> Découper en composants modulaires et réutilisables.</li>
+                                                        <li><i class="fa-regular fa-circle-check"></i> Structure logique des fichiers.</li>
+                                                        <li><i class="fa-regular fa-circle-check"></i> Un composant par fichier.</li>
+                                                        <li><i class="fa-regular fa-circle-check"></i> Utilisation des props entre les composants.  </li>
+                                                        <li><i class="fa-regular fa-circle-check"></i> Utilisation du state dans les composants quand c'est nécessaire.</li>
+                                                        <li><i class="fa-regular fa-circle-check"></i> Utiliser les listes en itérant dessus.</li>
+                                                        <li><i class="fa-regular fa-circle-check"></i> Gestion des événements.</li>
+                                                        <li><i class="fa-regular fa-circle-check"></i> Les paramètres des routes sont gérés par React Router dans l'URL pour récupérer les informations de chaque logement.</li>
+                                                        <li><i class="fa-regular fa-circle-check"></i> Il existe une page par route. </li>
+                                                        <li><i class="fa-regular fa-circle-check"></i> La page 404 est renvoyée pour chaque route inexistante</li>
+                                                    </ul>
+                                                    
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    
 <!--technologies modal-->
-                                    <div class="block-techno-modal">
-                                        <div class="modal-technologies">
-                                            <h5 class="h3">Technologies</h5>
+                                        <div class="block-techno-modal">
+                                            <div class="modal-technologies">
+                                                <h5 class="h3">Technologies</h5>
 
-                                            <ul class="icon-technologie">
-                                                <li><img src="./img/icons/HTML5_logo.png" alt="icon" ></li>
-                                                <li><img src="./img/icons/CSS3_logo.png" alt="icon"></li>
-                                                <li><img src="./img/icons/JavaScript-logo.png" alt="icon"></li>
-                                                <li><img src="./img/icons/vscode_icon.png" alt="icon"></li>
-                                                <li><img src="./img/icons/React.png" alt="icon"></li>
-                                            </ul>
+                                                <ul class="icon-technologie">
+                                                    <li><img src="./img/icons/HTML5_logo.png" alt="icon" ></li>
+                                                    <li><img src="./img/icons/CSS3_logo.png" alt="icon"></li>
+                                                    <li><img src="./img/icons/JavaScript-logo.png" alt="icon"></li>
+                                                    <li><img src="./img/icons/vscode_icon.png" alt="icon"></li>
+                                                    <li><img src="./img/icons/React.png" alt="icon"></li>
+                                                </ul>
 
-                                            <ul class="list-unstyled lien-modal-projet">
-                                                <li><a href="https://github.com/BenBxn/OpenClassRooms_Projet_7" target="_blank"><img src="./img/icons/github-icon2white.png" alt="icon" width="25" height="25">Repo du Projet Kasa</a></li>
-                                                <li><a href="https://BenBxn.github.io/OpenClassRooms_Projet_7/" target="_blank"><img src="./img/icons/www-icon.png" alt="icon" width="25" height="25">SiteWeb du Projet Kasa</a></li>
-                                            </ul>
+                                                <ul class="list-unstyled lien-modal-projet">
+                                                    <li><a href="https://github.com/BenBxn/OpenClassRooms_Projet_7" target="_blank"><img src="./img/icons/github-icon2.png" alt="icon" width="25" height="25">Repo du Projet Kasa</a></li>
+                                                    <li><a href="https://BenBxn.github.io/OpenClassRooms_Projet_7/" target="_blank"><img src="./img/icons/www-icon2.png" alt="icon" width="25" height="25">SiteWeb du Projet Kasa</a></li>
+                                                </ul>
+                                            </div>
                                         </div>
+
                                     </div>
+                                </div>
+
                                     <div>
                                         <button class="modal__close2">
                                         <i class="fa-solid fa-xmark"></i> Fermer la fenêtre
@@ -1049,18 +1267,19 @@
                     <!--fin modal-->
                 </div>
 <!-- fin card -->
-                                    <!--cards5-->
+                                    <!--cards7-->
                     
-                                    <!--cards-->
+                                    <!--cards8-->
                     
-                                    <!--cards-->
+                                    <!--cards9-->
                     
-            </div>
+
 <!-- Fin Cards Portfolio-->
 
         </div>
     </section>
-<!--Mes SERVICES ****************************************** --><!--
+<!--Mes SERVICES ****************************************** -->
+<!--
     <section id="services" class="services">
         <div class="container">
             <div class="section-header">
@@ -1197,11 +1416,7 @@
             </div>
 
     </section>
-
-
-
-
-<!-- ****************************************** FOOTERT ****************************************** -->
+<!-- ****************************************** FOOTER ****************************************** -->
     <footer>
 
             <div class="grid_footer">
