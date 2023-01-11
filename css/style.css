@@ -669,6 +669,7 @@ header .container{
     justify-content: space-around;
     padding: 0px;
     width: 95%;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -683,6 +684,7 @@ header .container{
     padding: 0;
     overflow: hidden;
     transition: all .4s ease;
+    margin: 0;
 }
 .portfolio-filters .grid__item {
     width: 20%;
@@ -713,7 +715,8 @@ header .container{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    width: 100%;
+    width: 95%;
+    max-width: 1300px;
     margin: auto;
 }
 .grid-cards-portfolio .grid__item{
@@ -822,7 +825,7 @@ header .container{
     background-color: #fefefe;
     overflow: auto;
     text-align: left;
-
+    height: 100%;
 
 }
 .modal__content .container{
@@ -831,6 +834,7 @@ header .container{
     align-items: center;
     margin: auto;
     width: 100%;
+
 }
 .modal__title{
     display: flex;
@@ -874,7 +878,6 @@ header .container{
 .slider figure .slider-img { 
     width: 20%;
     float: left; 
-
     display: flex;
     justify-content: space-around;
 }
@@ -893,14 +896,14 @@ header .container{
 .slider-img img{
         max-width: 100%;
         max-height: 550px;
-
     }
+
 .block-conlones{
     display: flex;
-    max-height: 850px;
-    max-width: 1000px;
+    max-width: 1100px;
     padding-top: 20px;
 }
+
 .colone1-modal, .colone2-modal{
     display: flex;
     flex-direction: column;
@@ -1112,8 +1115,8 @@ margin:10px 0 0 0 ;
 
 @media screen and (max-width:655px) {
     .grid-cards-portfolio{
-        display: flex;
-        flex-direction: column;
+
+
         align-items: center;
         width: 95%;
     }

@@ -177,7 +177,7 @@ const strings = [
   'Elle m\'a amené à découvrir le monde du développement et du web : « Un monde avec des ressources en abondance ».',
   'Mon empathie et mes valeurs pédagogiques ont fortifié mon orientation dans ce nouveau domaine.',
   'Je peux ainsi continuer d\’aider les personnes à avoir accès aux informations facilement et contribuer à la sécurité et à l\’entraide,',
-  'avec un sens du collectif et une éthique professionnelle modèles pour une entreprise.',
+  'avec un sens du collectif et une éthique professionnelle modèle pour une entreprise.',
   '......'
 ];
 
