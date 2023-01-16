@@ -5,7 +5,7 @@
 
 body
 {
-    background: #F5F5F5;
+    background-image: linear-gradient(to left top, #4da6b8, #42a7bf, #37a7c6, #2aa8cd, #1ba8d5, #27a6db, #37a4e1, #48a2e5, #679de6, #8197e4, #9891de, #ad8bd6);
     font-family: 'Ubuntu Condensed', sans-serif;
     margin: auto ;
 }
@@ -417,7 +417,7 @@ header .container{
 }
 /**-----------------------------------A Propos------*/
 .about .container{
-    background: #f5f5f5;
+    color: whitesmoke;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -436,9 +436,9 @@ header .container{
     }
 }
 /**-----------------------------------CV------*/
+
 .CV {
-    background: rgb(46,46,46);
-    background: linear-gradient(180deg, rgba(46,46,46,1) 0%, rgba(68,182,248,1) 50%, rgba(245,245,245,1) 100%);
+
     height: 180px;
 }
 .section-cv{
@@ -498,8 +498,6 @@ header .container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: rgb(46,46,46);
-    background: linear-gradient(0deg, rgba(46,46,46,1) 0%, rgba(68,182,248,1) 50%, rgba(245,245,245,1) 100%);
 }
 .section-skills{
     display: flex;
@@ -512,10 +510,10 @@ header .container{
 .section-skills p{ 
     font-size: 110%;
 }
-
-.section-skills p:hover{ 
-    color: rgb(12, 113, 171)
+.title_blanc{
+    color: whitesmoke;
 }
+
 .block-skills{
     padding: 0;
 }
@@ -562,9 +560,7 @@ header .container{
 .intro-skill ul li{
     padding-bottom: 10px;
 }
-.intro-skill ul li:hover{
-    color:  #5f1a7a;
-}
+
 
 .logo-skill{
     height: 700px;
@@ -640,10 +636,7 @@ header .container{
 }
 }
 /*-----------------------------Portfolio------*/
-.portfolio {
-    background: rgb(46,46,46);
-    background: linear-gradient(180deg, rgba(46,46,46,1) 0%, rgba(68,182,248,1) 50%, rgba(245,245,245,1) 100%);
-}
+
 .portfolio-title{
     padding-top: 20px;
     color: #F5F5F5;
@@ -709,6 +702,7 @@ header .container{
 .portfolio-filters a:hover{
     box-shadow: 0px 4px 4px #5f1a7a;
     background-color: rgba(68, 182, 248, 0.76);
+    color: whitesmoke;
 }
 /*---------------Portfolio--block Cards----------*/
 .grid-cards-portfolio{
@@ -791,13 +785,13 @@ header .container{
 .overlay_clic{
     margin-top: 35px;
     color: white;
-    text-decoration: underline rgba(222, 154, 249, 0.705);
+    text-decoration: underline #4da6b8;
 }
 .block_overlay:hover{
     color: rgb(105, 194, 246);
 }
 .block_overlay .overlay_clic:hover{
-    color:rgba(222, 154, 249, 0.705);
+
     text-decoration: underline overline rgb(105, 194, 246);
 }
 /*---------------Portfolio--MODAL-à corriger---------*/
@@ -844,7 +838,7 @@ header .container{
     width:100%;
     margin: 0;
     color: white;
-    background: linear-gradient(90deg, rgba(46,46,46,1) 0%, rgba(68,182,248,1) 30%, rgba(245,245,245,1) 100%);
+    background-image: linear-gradient(to right bottom, #00a8df, #34b1e1, #4ebae4, #63c2e6, #76cbe9, #86d1eb, #96d7ed, #a5ddef, #b5e2f0, #c4e7f2, #d3ebf3, #e1f0f5);
 }
 .image-modal-logo img{
     max-width: 60%;
@@ -917,7 +911,6 @@ header .container{
     border-left: 3px solid #4da6b8;
     box-shadow: 0 0 7px black;
     border-radius: 5px;
-    height: 70%;
     width: 90%;
     display: flex;
     align-items: center;
@@ -941,17 +934,17 @@ flex-wrap: wrap;
 .information-modal{
     width: 90%;
     padding: 5px 10px 5px 5px ;
+    padding-left: 20px;
+}
+.info-modal1{
+
     background-color: #F5F5F5;
     border-left: 3px solid #4da6b8;
     box-shadow: 0 0 7px black;
     border-radius: 10px;
-    padding-left: 20px;
-}
-.info-modal1{
-    height: 25%;
 }
 .info-modal2{
-    height: 70%;
+ height: 100%;
 }
 .block-info-modal{
     display:flex ;
@@ -973,7 +966,7 @@ flex-wrap: wrap;
     margin: 10px 0 0 0 ;
 }
 .block-info-modal p, .block-info-modal li, .block-info-modal i{
-    font-size: 80%;
+    font-size: 90%;
 }
 .document_modal{
     display: flex;
@@ -992,7 +985,6 @@ flex-wrap: wrap;
     border-left: 3px solid #4da6b8;
     box-shadow: 0 0 7px black;
     border-radius: 10px;
-    height: 25%;
 }
 .modal-technologies{
     width: 90%;
@@ -1091,8 +1083,14 @@ margin:10px 0 0 0 ;
         max-height: max-content;
         height: auto;
         margin-bottom: 20px;
+        padding: 0;
     }
     .info-modal1 {
+        max-height: max-content;
+        height: auto;
+        margin-top: 20px;
+    }
+    .block-techno-modal{
         max-height: max-content;
         height: auto;
         margin-top: 20px;
@@ -1222,11 +1220,14 @@ margin: 0 auto;
     margin: auto auto 20px auto;
     text-align: center;
     height: auto;
+    color: whitesmoke;
 }
 .section-contact p {
     font-size: large;
 }
 .section-contact a {
+    background-color: whitesmoke;
+    border-radius: 20px;
         padding: 15px;
         font-size: 1.5em;
         text-align: center;
