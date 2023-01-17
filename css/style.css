@@ -225,6 +225,7 @@ header .container{
     header .container{
         justify-content: space-between;
     }
+
 }
 
 @media screen and (min-width:1190px) {
@@ -251,6 +252,9 @@ header .container{
     }
     .header{
         height: 70px;
+    }
+    .header li {
+        padding: 0 5px;
     }
 }
 
@@ -387,6 +391,7 @@ header .container{
         width: 95%;
         align-items: center;
         margin-top: 25px;
+        margin-bottom: 25px;
     }
     .hero__item.left{
         margin-top: 25px;
@@ -701,7 +706,7 @@ header .container{
 }
 .portfolio-filters a:hover{
     box-shadow: 0px 4px 4px #5f1a7a;
-    background-color: rgba(68, 182, 248, 0.76);
+    background-color: #ad8bd6;
     color: whitesmoke;
 }
 /*---------------Portfolio--block Cards----------*/
@@ -1029,8 +1034,13 @@ margin:10px 0 0 0 ;
     color: #4da6b8;
 }
 
-
-
+.lien_reseaux{
+    text-align: center;
+    padding: 5px;
+}
+.lien_reseaux a{
+    padding: 5px;
+}
 /* *** CLose-Modal *** */
 .modal__close {
     position: fixed;
@@ -1323,5 +1333,13 @@ footer .socials a img{
     .footer-logo a{
         font-size: 100%;
         letter-spacing: 2px;
+    }
+    footer .socials {
+
+        padding: 0;
+    }
+    footer .socials a {
+        border: none;
+        margin: 0;
     }
 }
