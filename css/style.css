@@ -870,8 +870,8 @@ header .container{
     
 
 .slider { 
-    overflow: hidden;
-    padding: 5px;  
+    overflow: hidden;  
+    border-radius: 10px;
 }
 
 .slider figure .slider-img { 
@@ -890,11 +890,13 @@ header .container{
         animation: 20s slidy infinite; 
         display: flex;
         align-items: center;
+
     }
 
 .slider-img img{
         max-width: 100%;
         max-height: 550px;
+
     }
 
 .block-conlones{
@@ -915,7 +917,7 @@ header .container{
     background-color: #F5F5F5;
     border-left: 3px solid #4da6b8;
     box-shadow: 0 0 7px black;
-    border-radius: 5px;
+    border-radius: 10px;
     width: 90%;
     display: flex;
     align-items: center;
@@ -1237,7 +1239,7 @@ margin: 0 auto;
 }
 .section-contact a {
     background-color: whitesmoke;
-    border-radius: 20px;
+    border-radius: 15px;
         padding: 15px;
         font-size: 1.5em;
         text-align: center;
