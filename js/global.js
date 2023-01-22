@@ -165,19 +165,17 @@ const resolver = {
   } 
 }
 
-/* text
- */
+/* text A PROPOS */
+
 const strings = [
   'Qui suis-je ?',
-  'Hier, Animateur, référent jeunesse, directeur d\'un espace jeunesse et de séjours en Europe.',
+  'Hier, Animateur référent jeunesse, directeur d\'un espace jeunesse et de séjours en Europe.',
   'Aujourd\'hui, j\'ai décidé de donner un nouveau sens à ma carrière.',
   'Dans un monde en perpétuelle évolution, ma curiosité est insatiable.',
-  'J\’ai amélioré et transmis cette compétence auprès d\’un large public,',
-  'en mettant en place divers projets de découverte, de prévention et de création sur les outils numériques.',
-  'Elle m\'a amené à découvrir le monde du développement et du web : « Un monde avec des ressources en abondance ».',
+  'J\’ai amélioré et transmis cette compétence auprès d\’un large public en mettant en place divers projets de découverte, de prévention et de création sur les outils numériques.',
+  'Cette curiosité m\'a amené à découvrir le monde du développement et du web : « Un monde avec des ressources en abondance ».',
   'Mon empathie et mes valeurs pédagogiques ont fortifié mon orientation dans ce nouveau domaine.',
-  'Je peux ainsi continuer d\’aider les personnes à avoir accès aux informations facilement et contribuer à la sécurité et à l\’entraide,',
-  'avec un sens du collectif et une éthique professionnelle modèle pour une entreprise.',
+  'Je peux ainsi continuer d\’aider les personnes à avoir accès aux informations facilement et contribuer à la sécurité et à l\’entraide avec un sens du collectif et une éthique professionnelle modèle pour une entreprise.',
   '......'
 ];
 
@@ -187,7 +185,7 @@ const options = {
   // Initial position
   offset: 0,
   // Timeout between each random character
-  timeout: 5,
+  timeout: 3,
   // Number of random characters to show
   iterations: 10,
   // Random characters to pick from

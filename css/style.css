@@ -429,21 +429,21 @@ header .container{
 }
 .about .grid{
     margin:0 auto 0 auto ;
-    width: 60%;
-    max-width: 510px;
+    width: 70%;
+    max-width: 700px;
     font-size: 120%;
     height: 100px;
 }
 @media screen and (max-width:910px) {
     .about .grid{
-        width: 80%;
+        width: 85%;
         height: 120px;
+        margin-bottom: 15px;
     }
 }
 /**-----------------------------------CV------*/
 
 .CV {
-
     height: 180px;
 }
 .section-cv{
