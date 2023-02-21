@@ -165,8 +165,8 @@ const resolver = {
   } 
 }
 
-/* text A PROPOS */
-
+/* ---------------------------- text A PROPOS */
+/*
 const strings = [
   'Qui suis-je ?',
   'Hier, Animateur référent jeunesse, directeur d\'un espace jeunesse et de séjours en Europe.',
@@ -211,7 +211,7 @@ function callback() {
 }
 
 resolver.resolve(options, callback);
-
+*/
 
 
 /* ***************** CAROUSEL ************* */

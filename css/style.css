@@ -16,19 +16,19 @@ h1, h2, h3, h4, h5, h6 {
 
 h1, .h1 {
     font-size: 25px ;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Kanit', sans-serif;
     line-height: 1.2;
 }
 
 h2, .h2 {
     font-size: 140%;
     text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Kanit', sans-serif;
 }
 
 h3, .h3 {
     font-size: 120%;
-    font-family: 'Oswald', sans-serif;
+font-family: 'Kanit', sans-serif;
 }
 
 .h4{
@@ -421,24 +421,42 @@ header .container{
     }
 }
 /**-----------------------------------A Propos------*/
+
+.about{
+    margin-bottom: 25px;
+}
 .about .container{
-    color: whitesmoke;
+    width: 80%;
+    margin: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
+        background-color: #F5F5F5;
+        border-left: 3px solid #4da6b8;
+        padding: 8px 10px 12px 10px;
+        box-shadow: 0 0 7px black;
+        border-radius: 10px;
 }
 .about .grid{
+    font-size: 110%;
     margin:0 auto 0 auto ;
-    width: 70%;
-    max-width: 700px;
-    font-size: 120%;
-    height: 100px;
+    width: 90%;
+    max-width: 1000px;
+
+}
+.about .grid span{
+    font-weight: bold;
+text-decoration: underline;
+text-underline-offset: 2px;
+text-decoration-color: rgb(200, 37, 178);
+text-decoration-style:solid;
 }
 @media screen and (max-width:910px) {
     .about .grid{
         width: 85%;
-        height: 120px;
-        margin-bottom: 15px;
+        margin: auto;
+        text-align: center;
+        font-size: 100%;
     }
 }
 /**-----------------------------------CV------*/
@@ -745,7 +763,7 @@ header .container{
 }
 .card__title {
     margin: 0 0 1rem;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
 }
 .card__overlay {
     background: rgba(0, 0, 0, 0.8);
