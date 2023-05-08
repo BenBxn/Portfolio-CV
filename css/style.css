@@ -1094,7 +1094,15 @@ margin:10px 0 0 0 ;
 .modal__close2:hover{
     color:#4da6b8;
 }
-
+.banniere_lysBowl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banniere_lysBowl img{
+    width: 80%;
+    border-radius: 15px;
+}
 /***************************************//*media Portfolio*/ 
 @media screen and (max-width:1030px) {
     .block-conlones{
